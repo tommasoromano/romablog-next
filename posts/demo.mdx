@@ -1,0 +1,92 @@
+---
+title: 'Demo: About This Blog'
+description: 'A short introduction to the blog.'
+isBlog: true
+slug: 'demo'
+cover: '/images/demo-next.png'
+publishedDate: 'July 1, 2022'
+order: 4
+colors: ['1286dc', '239fef']
+---
+
+This is my first post from my blog + portfolio website. I won't be writing much in this post but let me tell you a little about this site.
+
+---
+
+## Styling
+
+Let's see how different elements are styled. I also use this blog as reference to check how the content are rendered into HTML from Markdown.
+
+_This text will be italic_
+
+**This text will be bold**
+
+_You **can** combine them_
+
+The code snippets look like this. They have the file name at the top and also you can copy the code ( desktop users can hover, mobile users can tap ). The theme is inspired from the [v2 Tailwind website](https://v2.tailwindcss.com/docs/utility-first).
+
+```javascript:folder/file.js
+console.log('Code snippets look like this');
+console.log('The theme is custom made');
+console.log('The font is Fira Code');
+```
+
+> Blockquotes look like this!
+
+The lists look like this and also can be nested.
+
+- Item 1
+- Item 2
+  - Item 2a
+  - Item 2b
+
+The tables look like this.
+
+| First Header                | Second Header                |
+| --------------------------- | ---------------------------- |
+| Content from cell 1         | Content from cell 2          |
+| Content in the first column | Content in the second column |
+
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+Since the blog uses **MDX**, we can add interactive react components like this counter below.
+
+<Counter />
+
+or this questionnaire below.
+
+<Questionnaire
+  question="What is the best social media site?"
+  answers={['Twitter', 'Facebook', 'Samiptter', 'Reddit']}
+  correctAnswer={2}
+/>
+
+---
+
+## Tech stack
+
+Now lets looks at the tech stack used to build the site.
+
+### 1. Next.js
+
+Next.js is one of the most popular frameworks out there and my go-to for building web application. It has SSR and SSG baked into it and they are super easy to use.
+
+### 2. TailwindCSS
+
+I am not a big fan of UI libraries like Bootstrap or Material-UI. I prefer to use TailwindCSS, because I have much more control over the styling. TailwindCSS makes it easy and quick to style your website and it works really well with React components.
+
+### 3. MDX
+
+MDX is the magician behind the curtain. MDX is an extended version of Markdown that also allows you to use React components. This will help me write more interactive content.
+
+### 4. TypeScript
+
+Once you start using TypeScript, there is no going back. It saves me from so much of the hassle. I use TypeScript in as much projects that I can. The best part about TypeScript is that you can use it incrementally and any valid JavaScript code is a valid TypeScript code.
+
+---
+
+## Conclusion
+
+There you have it these are the 4 major technologies that I used to build my portfolio + blog site.

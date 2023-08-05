@@ -100,7 +100,8 @@
       max-height: 18.75rem;
 
       @media only screen and (max-width: 800px) {
-        height: 9.375rem;
+        // height: 9.375rem;
+        width: 9.375rem;
       }
     }
   }

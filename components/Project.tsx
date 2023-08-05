@@ -68,7 +68,7 @@ const Project = ({
   const renderImage = (src:string) => {
     return (
         <img
-          className="projects__image"
+          className="projects__image md:min-w-[450px]"
           src={src}
           alt={`photo for "${title}"`}
         />

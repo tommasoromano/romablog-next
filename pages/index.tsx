@@ -14,6 +14,7 @@ import { Post } from '../types/post';
 import IconArrow from '../components/icons/Arrow';
 import Section from '../components/Section';
 import Recognition from '../components/Recognition';
+import Article from '../components/Article';
 
 const Home: NextPage<{ allPostsData: Post[] }> = ({
   allPostsData,
@@ -79,28 +80,7 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
             .map((edge: Post, index: number) => {
               if (edge.isBlog) {
                 return (
-                  <Link
-                    key={index}
-                    href={`/blog/${edge.slug}`}
-                    // href={`/blog/${edge.id}`}
-                    aria-label={`read article by Tommaso Romanò on the topic '${edge.title}'`}
-                  >
-                    <a>
-                      <div className="blog__blog">
-                        <div className="blog__details">
-                          <p className="blog__details-date">
-                            {edge.publishedDate} . {edge.readingTime}
-                          </p>
-                          <h3 className="blog__details-title">{edge.title}</h3>
-                        </div>
-                        <img
-                          className="blog__cover"
-                          src={edge.cover}
-                          alt="coverPhoto"
-                        />
-                      </div>
-                    </a>
-                  </Link>
+                  <Article edge={edge}/>
                 );
               } else {
                 return null;

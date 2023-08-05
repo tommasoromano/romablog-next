@@ -11,6 +11,7 @@ module.exports = {
         primary: 'var(--c-primary)',
         'light-gray': 'var(--c-gray-light)',
         'med-gray': 'var(--c-text-gray)',
+        'black-dark': 'var(--c-black-dark)'
       },
     },
   },

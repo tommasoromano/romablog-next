@@ -24,3 +24,29 @@
     tranform: translateX(0);
   }
 }
+@keyframes rainbow {
+  0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes rainbow_outline {
+  0% {
+    outline-color: violet;
+  }
+  33% {
+    outline-color: cyan;
+  }
+  66% {
+    outline-color: yellow;
+  }
+  100% {
+    outline-color: red;
+  }
+}

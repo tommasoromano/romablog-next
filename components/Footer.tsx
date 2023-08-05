@@ -1,14 +1,18 @@
 const Footer = () => {
   return (
-    <footer className="footer__wrapper">
+    <footer className="footer__wrapper pt-8">
       <div className="footer limit-width-lg">
         <p className="footer__copyright">
           © {new Date().getFullYear()} Tommaso Romanò
+          <br />
+          Made with ❤️ using Next.js, Tailwind CSS and MDX
+          {/* <br /> */}
+          {/* Insipred by <a className="minor-links" href="https://github.com/SamipPoudel58/next-portfolio">Samip Poudel</a> */}
         </p>
         <div className="footer__socialLinks">
           <a
             aria-label="Linkedin"
-            href="https://www.linkedin.com/in/samippoudel"
+            href="https://www.linkedin.com/in/tommaso-romano-developer/"
             className="footer__socialLink footer__socialLink__linkedin"
           >
             <svg

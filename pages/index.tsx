@@ -7,28 +7,29 @@ import MetaHead from '../components/MetaHead';
 import Project from '../components/Project';
 import Skills from '../components/Skills';
 import projectsData from '../data/projects.json';
+import recognitionsData from '../data/recognitions.json';
+import educationData from '../data/education.json';
 import { getSortedPostsData } from '../lib/posts';
 import { Post } from '../types/post';
 import IconArrow from '../components/icons/Arrow';
+import Section from '../components/Section';
+import Recognition from '../components/Recognition';
 
 const Home: NextPage<{ allPostsData: Post[] }> = ({
   allPostsData,
 }: {
   allPostsData: Post[];
 }) => {
-  return (
-    <div>
-      <MetaHead />
 
-      <Intro />
-
-      <section className="projects limit-width-lg">
-        <h2 className="text-left heading-lg">Works</h2>
-        <p className="paragraph mb-8">
-        A selected list of projects I've worked on as an employer, collaborator, self-employed, student or personal
-        </p>
-        {projectsData.map((project, index) => {
-          if (index >= 3) return null;
+  const renderProjects = () => {
+    return (
+      <Section
+        title="Works"
+        description="A selected list of projects I've worked on as an employer, collaborator, self-employed, student or personal"
+      >
+        <>
+        {projectsData.filter((p)=>p.featurated === true).map((project, index) => {
+          // if (index >= 3) return null;
           return (
             <Project
               key={project.name}
@@ -52,7 +53,7 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
               />
           );
         })}
-        <div className="projects__allProjects">
+        <div className="read-more">
           <Link href="/projects" aria-label="see more projects by Tommaso Romanò">
             <a>
               <span>More Works</span>
@@ -60,18 +61,23 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
             </a>
           </Link>
         </div>
-      </section>
+        </>
+      </Section>
+    )
+  }
 
-      <section className="blog limit-width-lg">
-        <h2 className="heading-lg text-left">Articles</h2>
-        <p className="paragraph">
-          I write about web development and share my experiences as a developer.
-        </p>
+  const renderArticles = () => {
+    return (
+      <Section
+        title="Articles"
+        description="You'll find writing about technologies I'm interested in at the time, or how I'm learning and growing in my careers, sharing knowledge along the way."
+      >
+        <>
         <div className="blog__blogs">
           {[...allPostsData]
             .sort((a, b) => (a.order > b.order ? 1 : -1))
             .map((edge: Post, index: number) => {
-              if (edge.isBlog && index < 2) {
+              if (edge.isBlog) {
                 return (
                   <Link
                     key={index}
@@ -101,7 +107,7 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
               }
             })}
         </div>
-        <div className="projects__allProjects">
+        <div className="read-more">
           <Link aria-label="see more articles by Tommaso Romanò" href="/blog">
             <a>
               <span>More Articles</span>
@@ -109,8 +115,69 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
             </a>
           </Link>
         </div>
-        <div className="py-12"></div>
-      </section>
+        </>
+      </Section>
+    )
+  }
+
+  const renderRecognitions = () => {
+    return (
+      <Section
+        title="Recognitions"
+        description="A selected list of recognitions I've received over the years including news, articles, interviews, awards, expositions, events, talks, courses and achievements."
+      >
+        <>
+        {recognitionsData.filter((r) => r.featured===true).map((recognition, index) => {
+            return (
+              <Recognition key={index}
+              recognition={recognition}
+              />
+            )
+          })}
+
+          <div className="read-more">
+            <Link href="/recognitions" aria-label="see more projects by Tommaso Romanò">
+              <a>
+                <span>More Recognitions</span>
+                <IconArrow/>
+              </a>
+            </Link>
+          </div>
+          </>
+      </Section>
+    )
+  }
+
+  const renderEducation = () => {
+    return (
+      <Section
+        title="Education"
+        description=""
+      >
+        <>
+          {educationData.filter((r) => r.featured===true).map((recognition, index) => {
+            return (
+              <Recognition key={index}
+              recognition={recognition}
+              />
+            )
+          })}
+          </>
+      </Section>
+    )
+  }
+
+  return (
+    <div>
+      <MetaHead />
+
+      <Intro />
+
+      {renderProjects()}
+      {renderRecognitions()}
+      {/* {renderEducation()} */}
+
+      {/* {renderArticles()} */}
 
       {/* <Skills /> */}
       <Contact />

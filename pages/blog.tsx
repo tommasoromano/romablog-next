@@ -6,6 +6,7 @@ import MetaHead from '../components/MetaHead';
 import Navigation from '../components/Navigation';
 import { getSortedPostsData } from '../lib/posts';
 import { Post } from '../types/post';
+import Section from '../components/Section';
 
 const Blog: NextPage<{ allPostsData: Post[] }> = ({
   allPostsData,
@@ -14,18 +15,18 @@ const Blog: NextPage<{ allPostsData: Post[] }> = ({
 }) => (
   <div className="blog__wrapper">
     <MetaHead
-      title="Blogs | Samip Poudel"
-      ogtitle="Blogs by Samip Poudel"
-      description="I write and share about programming and my journey as a software engineer. I like to write about web development, UI/UX and a bit about life as I experience it."
-      url="https://samip.vercel.app/blog"
+      title="Blog | Tommaso Romanò"
+      ogtitle="Blog by Tommaso Romanò"
+      description="You'll find writing about technologies I'm interested in at the time, or how I'm learning and growing in my careers, sharing knowledge along the way."
+      url="https://tommasoromano.com/blog"
     />
     <Navigation />
     <div className="py-8"></div>
-    <section className="blog limit-width-lg">
-      <h1 className="heading-lg text-left">Blog</h1>
-      <p className="paragraph">
-        I write about web development and share my experiences as a developer.
-      </p>
+    
+    <Section
+      title="Blog"
+      description="You'll find writing about technologies I'm interested in at the time, or how I'm learning and growing in my careers, sharing knowledge along the way."
+    >
       <div className="blog__blogs">
         {[...allPostsData]
           .sort((a, b) => (a.order > b.order ? 1 : -1))
@@ -55,7 +56,8 @@ const Blog: NextPage<{ allPostsData: Post[] }> = ({
             }
           })}
       </div>
-    </section>
+    </Section>
+
     <div className="py-3"></div>
     <Contact />
     <Footer />

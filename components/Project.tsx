@@ -11,7 +11,7 @@ interface ProjectProps {
   title: string;
   link: string;
   img: string;
-  featurated: string;
+  featurated: boolean;
   role: string;
   description: string;
   long: string;
@@ -63,15 +63,35 @@ const Project = ({
   // }, []);
 
   const [visible, setVisible] = useState(false);
+  const [slide,setSlide] = useState(0);
+
+  const renderImage = (src:string) => {
+    return (
+        <img
+          className="projects__image"
+          src={src}
+          alt={`photo for "${title}"`}
+        />
+      )
+  }
+  const renderSlider = () => {
+    return (
+      <>
+        {renderImage(slides[slide])}
+        <div className="absolute bottom-0 left-0 rotate-180">
+          <IconArrow/>
+        </div>
+        <div className="absolute bottom-0 right-0">
+          <IconArrow/>
+        </div>
+      </>
+      )
+  }
 
   return (
     <div className="projects__project py-8">
       <div className='relative projects__imagewrapper'>
-        <img
-          className="projects__image"
-          src={img}
-          alt={`cover photo for project "${title}"`}
-        />
+        {slides.length > 0 ? renderSlider() : renderImage(img)}
         <div className={`projects__more absolute top-0 bottom-0 left-0 right-0 ${visible?"block":"hidden"}`}>
           <p>{description}</p>
         </div>
@@ -87,7 +107,7 @@ const Project = ({
           </Link>
         </div> */}
         <p className='projects__info'>
-          <span className='font-bold'>{role}</span> <a className='minor-links' href={atlink}>@ {at}</a>
+          <span className='font-bold'>{role}</span> {at !== "" && <a className='minor-links' href={atlink}>@ {at}</a>}
           <br/>
           <span className='italic'>{CalculateDuration(time)}</span>
         </p>
@@ -95,7 +115,7 @@ const Project = ({
           description.length >= 50 ? '...' : ''
         }`}</p> */}
         <p><span className='font-bold'>Tech: </span>{tech}</p>
-        <div className="projects__allProjects my-4">
+        <div className="read-more my-4">
             <a onClick={()=>{setVisible(!visible)}}>
               <span>{visible ? "Close":"Read More"}</span>
               {/* <IconArrow/> */}

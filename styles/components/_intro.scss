@@ -43,15 +43,24 @@
     }
   }
 
+  &__rainbow {
+    background-image: linear-gradient(
+      -45deg,
+      orange,red,violet,cyan,yellow,orange,red,violet,cyan
+    );
+    background-size: 400% 400%;
+    animation: rainbow 15s ease infinite;
+  }
+
   &__name {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 4rem;
     font-weight: 700;
-    background-image: linear-gradient(
-      to right bottom,
-      var(--c-primary-light),
-      var(--c-primary-dark)
-    );
+    // background-image: linear-gradient(
+    //   to right bottom,
+    //   var(--c-primary-light),
+    //   var(--c-primary-dark)
+    // );
     background-clip: text;
     color: transparent;
     line-height: 1.1;
@@ -75,10 +84,14 @@
     &-main {
       color: var(--c-black-dark);
       margin-bottom: 1rem;
+      margin-top: 0.5rem;
     }
   }
 
   &__image {
+    // outline-width: 8px;
+    // outline-offset: 4px;
+    // animation: rainbow_outline 15s ease infinite;
     & img {
       display: block;
       width: 100%;

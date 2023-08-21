@@ -49,7 +49,7 @@ MetaHead.defaultProps = {
   ogtitle: 'Tommaso Romanò - Software Engineer',
   description:
     "Hey, I'm Tommaso. A Software Engineer based in Milan, Italy. I love design as much as Software Development. I work with JavaScript, TypeScript, React, Node.js & MongoDB.",
-  image: 'https://tommasoromano.com/default.jpg',
+  image: 'https://tommasoromano.com/images/default_tr.jpg',
   url: 'https://tommasoromano.com',
   typeOfContent: 'website',
 };

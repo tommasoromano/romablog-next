@@ -92,7 +92,7 @@ export default function Blog({ postData }: { postData: Post }) {
       </div>
 
       <div className="py-6"></div>
-      <section className="blogTemplate limit-width-blog">
+      <section className="blogTemplate limit-width-blog overflow-hidden">
         <img
           id="blogTemplate__cover"
           className="blogTemplate__cover"

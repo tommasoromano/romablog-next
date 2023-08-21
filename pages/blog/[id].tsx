@@ -8,6 +8,7 @@ import { Post } from '../../types/post';
 import Counter from '../../components/mdx-components/Counter';
 import Questionnaire from '../../components/mdx-components/Questionnaire';
 import ProgressBarComparison from '../../components/mdx-components/ProgressBarComparison';
+import DoubleImage from '../../components/mdx-components/DoubleImage';
 import CustomPre from '../../components/CustomPre';
 
 const components = {
@@ -25,6 +26,7 @@ const components = {
   Counter,
   Questionnaire,
   ProgressBarComparison,
+  DoubleImage
 };
 
 export default function Blog({ postData }: { postData: Post }) {

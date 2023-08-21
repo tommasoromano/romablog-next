@@ -48,11 +48,11 @@ const Navigation = () => {
               </NavLink>
             </li>
 
-            {/* <li>
+            <li>
               <NavLink exact className="navigation__navlink" href="/blog">
                 Blog
               </NavLink>
-            </li> */}
+            </li>
             <li>
               <NavLink exact className="navigation__navlink" href="/recognitions">
                 Recognitions
@@ -86,11 +86,11 @@ const Navigation = () => {
                 <a className="navigation__hiddenNav__navlink">Works</a>
               </Link>
             </li>
-            {/* <li>
+            <li>
               <Link href="/blog">
                 <a className="navigation__hiddenNav__navlink">Blog</a>
               </Link>
-            </li> */}
+            </li>
             <li>
               <Link href="/recognitions">
                 <a className="navigation__hiddenNav__navlink">Recognitions</a>

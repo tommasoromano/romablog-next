@@ -154,10 +154,10 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
       <Intro />
 
       {renderProjects()}
+      {renderArticles()}
       {renderRecognitions()}
       {/* {renderEducation()} */}
 
-      {/* {renderArticles()} */}
 
       {/* <Skills /> */}
       <Contact />

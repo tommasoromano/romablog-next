@@ -80,7 +80,7 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
             .map((edge: Post, index: number) => {
               if (edge.isBlog) {
                 return (
-                  <Article edge={edge}/>
+                  <Article key={index} edge={edge}/>
                 );
               } else {
                 return null;

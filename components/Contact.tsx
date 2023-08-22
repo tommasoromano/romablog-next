@@ -6,8 +6,7 @@ const Contact = () => {
 
         <div className="contact__contents">
           <p className="contact__description">
-            I specialize in building fast, high quality and gorgeous websites
-            and webapps. If you have a project in mind and need my help or just
+            If you have a project in mind and need my help or just
             wanna say hi, please feel free to contact me through my email &nbsp;
             <a
               href="mailto:info@tommasoromano.com"

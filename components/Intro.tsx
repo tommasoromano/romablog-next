@@ -18,8 +18,8 @@ const Intro = () => {
             </p>
 
             <p className="intro__job mt-2">
-            You'll find writing about technologies I'm interested 
-            in at the time, or how I'm learning and growing in my careers, sharing knowledge along the way.
+            You&apos;ll find writing about technologies. I&apos;m interested 
+            in at the time, or how I&apos;m learning and growing in my career, sharing knowledge along the way.
             </p>
           </div>
           <div className="intro__image">

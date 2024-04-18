@@ -13,11 +13,7 @@ import {
 import { RainbowText } from "../components/Rainbow";
 import SocialIcon from "../components/social-icons";
 import Footer from "../components/Footer";
-import {
-  allRecognitions,
-  recognitionUsc,
-  selectedRecognitions,
-} from "../components/Recognition";
+import { allRecognitions, selectedRecognitions } from "../pages/recognitions";
 
 const Home: NextPage<{ allPostsData: Post[] }> = ({
   allPostsData,
@@ -44,13 +40,13 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
         <span className="mx-1 inline-block origin-[70%_70%] animate-hey">
           👋
         </span>{" "}
-        I'm <RainbowText>Tommaso Romano'</RainbowText>
+        I&apos;m <RainbowText>Tommaso Romano&apos;</RainbowText>
       </div>
       <div className="text-lg font-semibold">
         a software engineer from Milan, Italy 🇮🇹
       </div>
       {/* <div className="text-md mb-4 font-semibold opacity-75">
-          A dynamic team and engaging challenges that ignite my passion every day. I'm always
+          A dynamic team and engaging challenges that ignite my passion every day. I&apos;m always
           looking for new opportunities to learn and grow.
         </div> */}
       <div className="flex space-x-4 pt-4">
@@ -87,16 +83,16 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
             {experienceSmartBear}
             {experienceFree}
           </div>
-          <div className="mt-8 mb-4 text-2xl font-bold">
-            Recognitions
-            {/* <br />
+          {/* <div className="mt-8 mb-4 text-2xl font-bold">
+            Recognitions */}
+          {/* <br />
             <span className="text-sm font-normal">
               A selected list of recognitions
             </span> */}
-          </div>
+          {/* </div>
           <div className="flex w-full flex-col space-y-8">
             {selectedRecognitions.map((e) => e)}
-          </div>
+          </div> */}
         </main>
 
         <Footer />

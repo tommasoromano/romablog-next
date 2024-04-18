@@ -120,7 +120,7 @@ export const experienceAmazon = (
     </div>
     <div>
       - Designed from scratch a flexible, modular and extensible architecture
-      for the operators UI, to speed up the development's pipeline, and to
+      for the operators UI, to speed up the development&apos;s pipeline, and to
       enable external testing.
     </div>
     <div>
@@ -147,11 +147,11 @@ export const experienceFamalabs = (
       experienced company in cloud architectures for healthcare.
     </div>
     {/* Engineered the architecture and reusable software for MAP (Medical Adaptive Platform): a dashboard built for doctors to easily manage CRF, surveys, and more.  */}
-    {/* Built the flexible survey's engine and compiler; designed library map-ui: a React UIKit for web dashboard. */}
+    {/* Built the flexible survey&apos;s engine and compiler; designed library map-ui: a React UIKit for web dashboard. */}
     <div>
-      - Built the modular survey's engine and compiler, and designed UI library
-      for MAP (Medical Adaptive Platform): a dashboard built for doctors to
-      easily manage CRF and more.
+      - Built the modular survey&apos;s engine and compiler, and designed UI
+      library for MAP (Medical Adaptive Platform): a dashboard built for doctors
+      to easily manage CRF and more.
     </div>
   </Experience>
 );
@@ -222,7 +222,7 @@ export const experienceSmartBear = (
     </div>
     <div>
       - Built modular and cloud-optimized pipelines for predictive analysis,
-      data imputation and visualization while protecting user's health data
+      data imputation and visualization while protecting user&apos;s health data
       anonymity.
     </div>
   </Experience>

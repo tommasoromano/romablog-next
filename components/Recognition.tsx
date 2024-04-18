@@ -1,78 +1,51 @@
-import React, { useEffect, useState } from 'react';
-import CalculateDuration from './Dates';
-import Link from 'next/link';
-import IconArrow from './icons/Arrow';
-import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
-// import { graphql, useStaticQuery } from 'gatsby';
-// import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import { TextLink } from "./Link";
 
-export interface IRecognitions {
-  show: boolean;
-  featured: boolean;
-  name: string;
+export const Recognition = ({
+  title,
+  link,
+  tag,
+  when,
+  children,
+  images,
+}: {
   title: string;
   link: string;
-  date: string;
-  description: string;
-  tags: string[];
-  expande: string[];
-  expandeText: string;
-  image: string;
-}
-
-interface RecognitionProps {
-  recognition: IRecognitions;
-}
-
-const Recognition = ({recognition}:RecognitionProps) => {
-
-  const [expand, setExpand] = useState(false);
-
-  const renderImage = (src:string) => {
-    if (src === "") return null;
-    return (
-        <img
-          className="recognitions__image"
-          src={src}
-          alt={`photo for "${recognition.title}"`}
-        />
-      )
-  }
-
+  tag: string;
+  when: string;
+  children: React.ReactNode;
+  images: { descr: string; src: string }[];
+}) => {
   return (
-    // <div className={`recognitions__project py-8 ${recognition.expande.length>1?"border-l-4 border-primary":""}`}>
-    <div className="recognitions__project py-8">
-      <div className='relative recognitions__imagewrapper'>
-        {renderImage(recognition.image)}
+    <div className="flex w-full flex-col text-sm">
+      <div className="flex flex-col md:flex-row justify-between">
+        <div className="font-bold">
+          <TextLink href={link}>{title}</TextLink>
+        </div>
+        <div>
+          {tag} • {when}
+        </div>
       </div>
-      <div className="recognitions__detail">
-        <h3 className="recognitions__title">{recognition.title}</h3>
-        <p className='recognitions__info'>
-          {recognition.link.length > 2 ? 
-          <>
-          <a className='' href={recognition.link}>
-            <ArrowTopRightOnSquareIcon className="h-6 w-6 text-primary inline"/>
-          </a>
-          {' ‧ '}
-          </>
-          :
-          null
-          }
-          <span className='font-bold text-black-dark'>{recognition.tags[0]}</span>
-          {' ‧ '}
-          <span className='italic text-black-dark'>{recognition.date}</span>
-          {' ‧ '}
-          {recognition.description}
-        </p>
-        {/* <p><span className='font-bold'>Tech: </span>{tech}</p> */}
-        {/* <div className="read-more my-4">
-            <a onClick={()=>{setExpand(!expand)}}>
-              <span>{expand ? "Close":recognition.expandeText}</span>
-            </a>
-        </div> */}
-      </div>
+      {/* <div>
+        {tag} • {when}
+      </div> */}
+      <div className="mt-2">{children}</div>
+      {images.length > 0 && (
+        <div className="relative max-w-full overflow-hidden">
+          <div className="relative overflow-auto pt-2">
+            <div className="flex flex-nowrap space-x-2">
+              {images.map((image, i) => (
+                <div
+                  key={i}
+                  className="aspect-[16/9] h-32 rounded-md bg-cover bg-center"
+                  style={{
+                    backgroundImage: `url(${image.src})`,
+                  }}
+                ></div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
-
-export default Recognition;

@@ -1,167 +1,102 @@
-import type { GetStaticProps, NextPage } from 'next';
-import Link from 'next/link';
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
-import Intro from '../components/Intro';
-import MetaHead from '../components/MetaHead';
-import Project from '../components/Project';
-import Skills from '../components/Skills';
-import projectsData from '../data/projects.json';
-import recognitionsData from '../data/recognitions.json';
-import educationData from '../data/education.json';
-import { getSortedPostsData } from '../lib/posts';
-import { Post } from '../types/post';
-import IconArrow from '../components/icons/Arrow';
-import Section from '../components/Section';
-import Recognition from '../components/Recognition';
-import Article from '../components/Article';
+import type { GetStaticProps, NextPage } from "next";
+import Contact from "../components/Contact";
+import MetaHead from "../components/MetaHead";
+import { getSortedPostsData } from "../lib/posts";
+import { Post } from "../types/post";
+import {
+  experienceAmazon,
+  experienceDreambits,
+  experienceFamalabs,
+  experienceFree,
+  experienceSmartBear,
+} from "../components/Experience";
+import { RainbowText } from "../components/Rainbow";
+import SocialIcon from "../components/social-icons";
+import Footer from "../components/Footer";
+import { allRecognitions, selectedRecognitions } from "../pages/recognitions";
 
 const Home: NextPage<{ allPostsData: Post[] }> = ({
   allPostsData,
 }: {
   allPostsData: Post[];
 }) => {
-
-  const renderProjects = () => {
-    return (
-      <Section
-        title="Works"
-        description="A selected list of projects I've worked on as an employer, collaborator, self-employed, student or personal"
-      >
-        <>
-        {projectsData.filter((p)=>p.featurated === true).map((project, index) => {
-          // if (index >= 3) return null;
-          return (
-            <Project
-              key={project.name}
-              show={project.show}
-              name={project.name}
-              title={project.title}
-              link={project.link}
-              img={project.img}
-              featurated={project.featurated}
-              role={project.role}
-              description={project.description}
-              long={project.long}
-              field={project.field}
-              tags={project.tags}
-              time={project.time}
-              at={project.at}
-              atlink={project.atlink}
-              tech={project.tech}
-              seemore={project.seemore}
-              slides={project.slides}
-              />
-          );
-        })}
-        <div className="read-more">
-          <Link href="/projects" aria-label="see more projects by Tommaso Romanò">
-            <a>
-              <span>More Works</span>
-              <IconArrow/>
-            </a>
-          </Link>
+  const intro = (
+    <div className="flex h-full h-screen w-full flex-col items-center justify-center space-y-1 text-center">
+      <div className="mb-6 aspect-square w-full max-w-48 rounded-full">
+        <div
+          className="h-full w-full rounded-full bg-cover bg-center p-4"
+          style={{
+            backgroundImage: `url(/me/me_2023_05_final_square.jpg)`,
+          }}
+        >
+          {/* <img
+            src="/static/images/me/me_2023_05_final_square.jpg"
+            className="h-full w-full rounded-full"
+          /> */}
         </div>
-        </>
-      </Section>
-    )
-  }
-
-  const renderArticles = () => {
-    return (
-      <Section
-        title="Articles"
-        description="You'll find writing about technologies I'm interested in at the time, or how I'm learning and growing in my careers, sharing knowledge along the way."
-      >
-        <>
-        <div className="blog__blogs">
-          {[...allPostsData]
-            .sort((a, b) => (a.order > b.order ? 1 : -1))
-            .map((edge: Post, index: number) => {
-              if (edge.isBlog) {
-                return (
-                  <Article key={index} edge={edge}/>
-                );
-              } else {
-                return null;
-              }
-            })}
-        </div>
-        <div className="read-more">
-          <Link aria-label="see more articles by Tommaso Romanò" href="/blog">
-            <a>
-              <span>More Articles</span>
-              <IconArrow/>
-            </a>
-          </Link>
-        </div>
-        </>
-      </Section>
-    )
-  }
-
-  const renderRecognitions = () => {
-    return (
-      <Section
-        title="Recognitions"
-        description="A selected list of recognitions I've received over the years including news, articles, interviews, awards, expositions, events, talks, courses and achievements."
-      >
-        <>
-        {recognitionsData.filter((r) => r.featured===true).map((recognition, index) => {
-            return (
-              <Recognition key={index}
-              recognition={recognition}
-              />
-            )
-          })}
-
-          <div className="read-more">
-            <Link href="/recognitions" aria-label="see more projects by Tommaso Romanò">
-              <a>
-                <span>More Recognitions</span>
-                <IconArrow/>
-              </a>
-            </Link>
-          </div>
-          </>
-      </Section>
-    )
-  }
-
-  const renderEducation = () => {
-    return (
-      <Section
-        title="Education"
-        description=""
-      >
-        <>
-          {educationData.filter((r) => r.featured===true).map((recognition, index) => {
-            return (
-              <Recognition key={index}
-              recognition={recognition}
-              />
-            )
-          })}
-          </>
-      </Section>
-    )
-  }
+      </div>
+      <div className="mb-4 text-2xl font-semibold">
+        Hey
+        <span className="mx-1 inline-block origin-[70%_70%] animate-hey">
+          👋
+        </span>{" "}
+        I&apos;m <RainbowText>Tommaso Romano&apos;</RainbowText>
+      </div>
+      <div className="text-lg font-semibold">
+        a software engineer from Milan, Italy 🇮🇹
+      </div>
+      {/* <div className="text-md mb-4 font-semibold opacity-75">
+          A dynamic team and engaging challenges that ignite my passion every day. I&apos;m always
+          looking for new opportunities to learn and grow.
+        </div> */}
+      <div className="flex space-x-4 pt-4">
+        <SocialIcon
+          kind="mail"
+          href={"mailto:info@tommasoromano.com"}
+          size={6}
+        />
+        <SocialIcon
+          kind="linkedin"
+          href={"https://www.linkedin.com/in/tommaso-romano-developer/"}
+          size={6}
+        />
+        <SocialIcon
+          kind="twitter"
+          href={"https://twitter.com/TommasoRomano_"}
+          size={6}
+        />
+      </div>
+    </div>
+  );
 
   return (
-    <div>
+    <div className="bg-gray-900 text-white">
       <MetaHead />
+      <section className="mx-auto max-w-screen-sm px-4">
+        <main className="mb-auto">
+          {intro}
+          <div className="mb-4 text-2xl font-bold">Experience</div>
+          <div className="flex w-full flex-col space-y-8">
+            {experienceAmazon}
+            {experienceFamalabs}
+            {experienceDreambits}
+            {experienceSmartBear}
+            {experienceFree}
+          </div>
+          {/* <div className="mt-8 mb-4 text-2xl font-bold">
+            Recognitions */}
+          {/* <br />
+            <span className="text-sm font-normal">
+              A selected list of recognitions
+            </span> */}
+          {/* </div>
+          <div className="flex w-full flex-col space-y-8">
+            {selectedRecognitions.map((e) => e)}
+          </div> */}
+        </main>
 
-      <Intro />
-
-      {renderProjects()}
-      {renderArticles()}
-      {renderRecognitions()}
-      {/* {renderEducation()} */}
-
-
-      {/* <Skills /> */}
-      <Contact />
-      <Footer />
+        <Footer />
+      </section>
     </div>
   );
 };

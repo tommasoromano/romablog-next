@@ -1,90 +1,47 @@
-import { NextPage } from 'next';
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
-import MetaHead from '../components/MetaHead';
-import Navigation from '../components/Navigation';
-import Project from '../components/Project';
-import _data from '../data/projects.json';
-import { useState } from 'react';
-import Section from '../components/Section';
+import { NextPage } from "next";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+import MetaHead from "../components/MetaHead";
+import Navigation from "../components/Navigation";
+import Project from "../components/Project";
+import _data from "../data/projects.json";
+import { useState } from "react";
+import Section from "../components/Section";
+import { Recognition } from "../components/Recognition";
 
 const Projects: NextPage = () => {
-
-  const data = _data.filter((p) => p.show === true)
-  const filters = ["All","Selected","Software","Data","Game"]
-  const [curFilter,setFilter] = useState(0);
-
-  const filtered = (filter:number) => {
-    if (filter === 0) {return data;}
-    if (filter === 1) {return data.filter((p)=>p.featurated === true);}
-    return data.filter((p,i) => {
-      return p.show === true && p.field.includes(filters[filter]);
-    })
-  }
-
-  const renderFilters = () => {
-    return (
-      <p>{filters.map((f,i) =>
-        i == curFilter ?
-        <>
-        <span className="text-black-dark hover:underline font-black"
-        onClick={()=>{setFilter(i)}}> {f} ({filtered(i).length}) </span>
-        {i+1 !== filters.length && "/"}
-        </>
-        : 
-        <>
-        <span className="hover:underline"
-        onClick={()=>{setFilter(i)}}> {f} ({filtered(i).length}) </span>
-        {i+1 !== filters.length && "/"}
-        </>
-      )}</p>
-    )
-  }
-
   return (
-  <div>
-    <MetaHead
-      title="Works | Tommaso Romanò"
-      ogtitle="Works made by Tommaso Romanò"
-      description="These are some of the works over the years. These project reflect my passion in software and design. My most used tools are Javascript, React, Node and MongoDB."
-      url="https://samip.vercel.app/projects"
-    />
-    <Navigation />
-    <div className="py-8"></div>
+    <div className="bg-gray-900 text-white">
+      <MetaHead
+        title="Projects | Tommaso Romanò"
+        ogtitle="Projects made by Tommaso Romanò"
+        description="These are some of the works over the years. These project reflect my passion in software and design. My most used tools are Javascript, React, Node and MongoDB."
+        url="https://tommasoromano.com/projects"
+      />
+      <section className="mx-auto max-w-screen-sm px-4">
+        <main className="mb-auto">
+          <div className="pt-8 mb-4 text-2xl font-bold">Projects</div>
+          <div className="flex w-full flex-col space-y-8">
+            {/* {allRecognitions.map((e) => e)} */}
+          </div>
+        </main>
 
-    <Section
-      title="Works"
-      description="A selected list of projects I've worked on as an employer, collaborator, self-employed, student or personal"
-      subtitle={renderFilters()}
-    >
-      {filtered(curFilter).map((project, index) => (
-            <Project
-              key={project.name}
-              show={project.show}
-              name={project.name}
-              title={project.title}
-              link={project.link}
-              img={project.img}
-              featurated={project.featurated}
-              role={project.role}
-              description={project.description}
-              long={project.long}
-              field={project.field}
-              tags={project.tags}
-              time={project.time}
-              at={project.at}
-              atlink={project.atlink}
-              tech={project.tech}
-              seemore={project.seemore}
-              slides={project.slides}
-              />
-      ))}
-    </Section>
-
-    <Contact />
-    <Footer />
-  </div>
-);
-}
+        <Footer />
+      </section>
+    </div>
+  );
+};
 
 export default Projects;
+
+const prj = (
+  <Recognition
+    title="Top 100 in the Italian game industry (2023)"
+    link="https://startupitalia.eu/le-100-e-piu-persone-da-seguire-nel-mondo-dei-videogiochi-in-italia-lista-in-aggiornamento"
+    tag="Award"
+    when="16 July 2023"
+    images={[]}
+  >
+    ciao
+  </Recognition>
+);

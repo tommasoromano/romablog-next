@@ -64,6 +64,11 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
           href={"https://twitter.com/TommasoRomano_"}
           size={6}
         />
+        <SocialIcon
+          kind="resume"
+          href={"https://tommasoromano.com/tommaso_romano_resume.pdf"}
+          size={6}
+        />
       </div>
     </div>
   );

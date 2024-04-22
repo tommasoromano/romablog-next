@@ -3,11 +3,11 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import MetaHead from "../components/MetaHead";
 import Navigation from "../components/Navigation";
-import Project from "../components/Project";
 import _data from "../data/projects.json";
 import { useState } from "react";
 import Section from "../components/Section";
 import { Recognition } from "../components/Recognition";
+import { projAll } from "../components/projects";
 
 const Projects: NextPage = () => {
   return (
@@ -22,7 +22,7 @@ const Projects: NextPage = () => {
         <main className="mb-auto">
           <div className="pt-8 mb-4 text-2xl font-bold">Projects</div>
           <div className="flex w-full flex-col space-y-8">
-            {/* {allRecognitions.map((e) => e)} */}
+            {projAll.map((e) => e)}
           </div>
         </main>
 
@@ -33,15 +33,3 @@ const Projects: NextPage = () => {
 };
 
 export default Projects;
-
-const prj = (
-  <Recognition
-    title="Top 100 in the Italian game industry (2023)"
-    link="https://startupitalia.eu/le-100-e-piu-persone-da-seguire-nel-mondo-dei-videogiochi-in-italia-lista-in-aggiornamento"
-    tag="Award"
-    when="16 July 2023"
-    images={[]}
-  >
-    ciao
-  </Recognition>
-);

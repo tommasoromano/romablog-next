@@ -5,6 +5,7 @@ export const Recognition = ({
   link,
   tag,
   when,
+  techs,
   children,
   images,
 }: {
@@ -12,6 +13,7 @@ export const Recognition = ({
   link: string;
   tag: string;
   when: string;
+  techs: string;
   children: React.ReactNode;
   images: { descr: string; src: string }[];
 }) => {
@@ -19,16 +21,26 @@ export const Recognition = ({
     <div className="flex w-full flex-col text-sm">
       <div className="flex flex-col md:flex-row justify-between">
         <div className="font-bold">
-          <TextLink href={link}>{title}</TextLink>
+          {link !== "" && <TextLink href={link}>{title}</TextLink>}
+          {link === "" && title}
         </div>
         <div>
-          {tag} • {when}
+          {tag !== "" && tag + " • "}
+          {when}
         </div>
       </div>
       {/* <div>
         {tag} • {when}
       </div> */}
-      <div className="mt-2">{children}</div>
+      <div className="mt-2">
+        {children}
+        {techs !== "" && (
+          <div>
+            <span className="font-bold">Tech: </span>
+            {techs}
+          </div>
+        )}
+      </div>
       {images.length > 0 && (
         <div className="relative max-w-full overflow-hidden">
           <div className="relative overflow-auto pt-2">

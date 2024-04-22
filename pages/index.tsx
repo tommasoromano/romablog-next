@@ -3,17 +3,16 @@ import Contact from "../components/Contact";
 import MetaHead from "../components/MetaHead";
 import { getSortedPostsData } from "../lib/posts";
 import { Post } from "../types/post";
-import {
-  experienceAmazon,
-  experienceDreambits,
-  experienceFamalabs,
-  experienceFree,
-  experienceSmartBear,
-} from "../components/Experience";
 import { RainbowText } from "../components/Rainbow";
 import SocialIcon from "../components/social-icons";
 import Footer from "../components/Footer";
-import { allRecognitions, selectedRecognitions } from "../pages/recognitions";
+import {
+  expAmazon,
+  expDrembitsStudio,
+  expFamaLabs,
+  expSmartBearEU,
+  expStealthStartup,
+} from "../components/experiences";
 
 const Home: NextPage<{ allPostsData: Post[] }> = ({
   allPostsData,
@@ -77,11 +76,11 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
           {intro}
           <div className="mb-4 text-2xl font-bold">Experience</div>
           <div className="flex w-full flex-col space-y-8">
-            {experienceAmazon}
-            {experienceFamalabs}
-            {experienceDreambits}
-            {experienceSmartBear}
-            {experienceFree}
+            {expAmazon}
+            {expFamaLabs}
+            {expDrembitsStudio}
+            {expSmartBearEU}
+            {expStealthStartup}
           </div>
           {/* <div className="mt-8 mb-4 text-2xl font-bold">
             Recognitions */}

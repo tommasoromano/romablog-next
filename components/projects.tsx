@@ -66,4 +66,4 @@ export const proj4 = (
   </Recognition>
 );
 
-export const projAll = ["proj0,", "proj1,", "proj2,", "proj3,", "proj4,"];
+export const projAll = [proj1, proj2, proj3, proj4];

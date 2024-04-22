@@ -360,4 +360,30 @@ export const reco25 = (
   </Recognition>
 );
 
-export const recoAll = ["reco0,", "reco1,", "reco2,", "reco3,", "reco4,"];
+export const recoAll = [
+  reco1,
+  reco2,
+  reco3,
+  reco4,
+  reco5,
+  reco6,
+  reco7,
+  reco8,
+  reco9,
+  reco10,
+  reco11,
+  reco12,
+  reco13,
+  reco14,
+  reco15,
+  reco16,
+  reco17,
+  reco18,
+  reco19,
+  reco20,
+  reco21,
+  reco22,
+  reco23,
+  reco24,
+  reco25,
+];

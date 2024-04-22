@@ -1,0 +1,179 @@
+[
+  {
+    "position": "",
+    "company": "",
+    "company_logo": "",
+    "start": "",
+    "end": "",
+    "duration": "",
+    "where": "",
+    "descriptions": [[""]],
+    "desc_links": {},
+    "tech": "",
+    "images": []
+  },
+  {
+    "position": "Software Developer Engineer Intern",
+    "company": "Amazon",
+    "company_logo": "amazon_logo.jpeg",
+    "start": "Sept. 2023",
+    "end": "Feb. 2024",
+    "duration": "6 months",
+    "where": "Berlin, Germany",
+    "descriptions": [
+      [
+        "Robotics. Research team mainly composed of PhD Applied Scientists. Mission: develop robots to pick any kind of item from human-task-designed pods in warehouses. IEEE",
+        "- Designed from scratch a flexible, modular and extensible architecture for the operators UI, to speed up the development's pipeline, and to enable external testing.",
+        "- Took ownership of the project and worked side by side with stakeholders; suggested and guided the refactoring the whole team data schema."
+      ]
+    ],
+    "desc_links": {
+      "IEEE": "https://spectrum.ieee.org/amazon-warehouse-robots-2659064182"
+    },
+    "tech": "React, TypeScript, ProtoBuf, Kotlin, Python, AWS",
+    "images": [
+      {
+        "src": "/amazon/cup.jpeg",
+        "descr": ""
+      },
+      {
+        "src": "https://spectrum.ieee.org/media-library/a-photo-of-a-robotic-system-stowing-items-in-an-amazon-warehouse.jpg?id=32625002&width=1580&quality=85",
+        "descr": ""
+      }
+    ]
+  },
+  {
+    "position": "Software Engineer",
+    "company": "FamaLabs",
+    "company_logo": "famalabs_logo.jpeg",
+    "start": "Aug. 2022",
+    "end": "May. 2023",
+    "duration": "9 months",
+    "where": "",
+    "descriptions": [
+      [
+        "FamaLabs is an experienced company in distributed systems and cloud architectures in healthcare.",
+        "- Built the modular survey's engine and compiler, and designed UI library for MAP (Medical Adaptive Platform): a dashboard built for doctors to easily manage CRF and more."
+      ],
+      [
+        "Engineered the architecture and reusable software for MAP (Medical Adaptive Platform): a dashboard built for doctors to easily manage CRF, surveys, and more.",
+        "Built the flexible survey's engine and compiler; designed library map-ui: a React UIKit for web dashboard."
+      ]
+    ],
+    "desc_links": {
+      "FamaLabs": "https://www.famalabs.com/en"
+    },
+    "tech": "Next.js, TypeScript, Redux, Jest, Storybook",
+    "images": []
+  },
+  {
+    "position": "Data Scientist",
+    "company": "Smart Bear EU",
+    "company_logo": "smart_bear_eu_logo.jpeg",
+    "start": "April 2022",
+    "end": "Oct. 2022",
+    "duration": "6 months",
+    "where": "Milan, Italy",
+    "descriptions": [
+      [
+        "Smart-Bear is a big data platform in healthcare funded by the European Union, offering evidence-based interventions thanks to predictive analytics.",
+        "- Built modular and cloud-optimized pipelines for predictive analysis, data imputation and visualization while protecting user's health data anonymity."
+      ],
+      [
+        "- Worked on Data Imputation, Data Augmentation, and Data Visualization.",
+        "- Used predictive algorithms like MICE and Random Forest. Studied their performance and effects on distribution and correlation matrices, etc"
+      ]
+    ],
+    "desc_links": {
+      "Smart-Bear": "https://www.smart-bear.eu/"
+    },
+    "tech": "Python, PySpark, Echats.js and AI/ML libraries",
+    "images": []
+  },
+  {
+    "position": "Software Engineer, Multiplayer",
+    "company": "Drembits Studio",
+    "company_logo": "dreambits_logo.jpeg",
+    "start": "May 2021",
+    "end": "Nov. 2022",
+    "duration": "1 year and 6 months",
+    "where": "",
+    "descriptions": [
+      [
+        "Founding team. Worked on War of Wheels: a multiplayer game about medieval-punk fighting cars.",
+        "- Winners of BGF (funding and accelerator); participated in several international events and expositions while pitching to publishers and investors, and meeting fellow devs.",
+        "- Took ownership of the multiplayer and proactively guided its design and implementation."
+      ],
+      [
+        "Worked on game War of Wheels: a fast-paced multiplayer game about fighting cars in a medieval-punk environment.",
+        "Winners of Bologna Game Farm 2021: funding and entrepreneurial accelerator dedicated to innovative startups.",
+        "Participated in many expositions and events like First Playable, GamesCom in Cologne, and GamesConnection in Paris.",
+        "Pitched the project to several international publishers and investors, shared ideas, and met devs worldwide.",
+        "Engineered a Networking solution for Multiplayer Synchronization.",
+        "Worked on the in-game Level-Editor Software Architecture for creating custom arenas."
+      ]
+    ],
+    "desc_links": {
+      "War of Wheels": "https://www.dreambitsstudio.com/",
+      "BGF": "https://bolognagamefarm.com/"
+    },
+    "tech": "Unity, CSharp, PhotonEngine, Python",
+    "images": [
+      {
+        "src": "/me/gc_2022.JPG",
+        "descr": "GamesCom 2022"
+      },
+      {
+        "src": "/me/gcparis_2022.jpeg",
+        "descr": "Game Connection Paris 2022"
+      },
+      {
+        "src": "/me/bgf_0.jpg",
+        "descr": "Bologna Game Farm 2022"
+      }
+    ]
+  },
+  {
+    "position": "Software Engineer",
+    "company": "Stealth Startup",
+    "company_logo": "stealth_logo.jpeg",
+    "start": "Sept. 2013",
+    "end": "Jan. 2022",
+    "duration": "8 years and 5 months",
+    "where": "",
+    "descriptions": [
+      [
+        "Developed several commercial projects from videogames to AI automations or websites. Here are some of the most relevant:",
+        "- Untitled Nature Game: a prototype game that went viral with several millions of viewers across TikTok, Reddit and Twitter. It caught the attention of several investors and publishers.",
+        "- RELOW: a solo-developed multiplayer game, released in 2020, showcased in several expositions like Milan Games Week 2019 and 2020, and Svilupparty 2019 and 2020; attended and given several talks and interviews.",
+        "- POLYWAR: multiplayer game released in 2016 in collaboration with the publisher New Reality Games",
+        "- Easy Insta Growth: 2020-2021 an Instagram AI automation, with hundreds of clients worldwide.",
+        "- Freelance worked on several websites"
+      ]
+    ],
+    "desc_links": {
+      "RELOW": "https://store.steampowered.com/app/966070/Relow/",
+      "Untitled Nature Game": "https://x.com/TommasoRomano_/status/1414574481281101831",
+      "POLYWAR": "https://store.steampowered.com/app/444490/POLYWAR/"
+    },
+    "tech": "Unity, CSharp, Python, React",
+    "images": [
+      {
+        "src": "/me/svp21.PNG",
+        "descr": ""
+      },
+      {
+        "src": "/me/mgw19.JPG",
+        "descr": ""
+      },
+      {
+        "src": "/others/untitle-nature-game.gif",
+        "descr": ""
+      },
+      {
+        "src": "/others/relow.jpg",
+        "descr": ""
+      }
+    ]
+  }
+]

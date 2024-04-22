@@ -93,17 +93,14 @@ export const experienceAmazon = (
   <Experience
     company="Amazon"
     logo="/linkedin/amazon_logo.jpeg"
-    position="Software Engineer Intern"
+    position="Software Developer Engineer Intern"
     where="Berlin, Germany"
-    startDate="Sep. 23"
-    endDate="Feb. 24"
+    startDate="Sept. 2023"
+    endDate="Feb. 2024"
     duration="6 months"
     techs="React, TypeScript, ProtoBuf, Kotlin, Python, AWS"
     images={[
-      {
-        src: "/amazon/cup.jpeg",
-        descr: "Paris Game Week 2019",
-      },
+      { src: "/amazon/cup.jpeg", descr: "" },
       {
         src: "https://spectrum.ieee.org/media-library/a-photo-of-a-robotic-system-stowing-items-in-an-amazon-warehouse.jpg?id=32625002&width=1580&quality=85",
         descr: "",
@@ -120,7 +117,7 @@ export const experienceAmazon = (
     </div>
     <div>
       - Designed from scratch a flexible, modular and extensible architecture
-      for the operators UI, to speed up the development&apos;s pipeline, and to
+      for the operators UI, to speed up the development's pipeline, and to
       enable external testing.
     </div>
     <div>
@@ -132,10 +129,10 @@ export const experienceAmazon = (
 
 export const experienceFamalabs = (
   <Experience
-    company="Fama Labs"
+    company="FamaLabs"
     logo="/linkedin/famalabs_logo.jpeg"
     position="Software Engineer"
-    where="Modena, Italy"
+    where=""
     startDate="Aug. 2022"
     endDate="May. 2023"
     duration="9 months"
@@ -144,58 +141,44 @@ export const experienceFamalabs = (
   >
     <div>
       <TextLink href="https://www.famalabs.com/en">FamaLabs</TextLink> is an
-      experienced company in cloud architectures for healthcare.
+      experienced company in distributed systems and cloud architectures in
+      healthcare.
     </div>
-    {/* Engineered the architecture and reusable software for MAP (Medical Adaptive Platform): a dashboard built for doctors to easily manage CRF, surveys, and more.  */}
-    {/* Built the flexible survey&apos;s engine and compiler; designed library map-ui: a React UIKit for web dashboard. */}
     <div>
-      - Built the modular survey&apos;s engine and compiler, and designed UI
-      library for MAP (Medical Adaptive Platform): a dashboard built for doctors
-      to easily manage CRF and more.
+      - Built the modular survey's engine and compiler, and designed UI library
+      for MAP (Medical Adaptive Platform): a dashboard built for doctors to
+      easily manage CRF and more.
     </div>
   </Experience>
 );
 
 export const experienceDreambits = (
   <Experience
-    company="Dreambits Studio"
+    company="Drembits Studio"
     logo="/linkedin/dreambits_logo.jpeg"
-    position="Lead Game Engineer"
-    where="Bologna, Italy"
+    position="Software Engineer, Multiplayer"
+    where=""
     startDate="May 2021"
     endDate="Nov. 2022"
     duration="1 year and 6 months"
     techs="Unity, CSharp, PhotonEngine, Python"
     images={[
-      {
-        src: "/me/gc_2022.JPG",
-        descr: "Paris Game Week 2019",
-      },
-      {
-        src: "/me/gcparis_2022.jpeg",
-        descr: "Paris Game Week 2019",
-      },
-      {
-        src: "/me/bgf_0.jpg",
-        descr: "Paris Game Week 2019",
-      },
+      { src: "/me/gc_2022.JPG", descr: "GamesCom 2022" },
+      { src: "/me/gcparis_2022.jpeg", descr: "Game Connection Paris 2022" },
+      { src: "/me/bgf_0.jpg", descr: "Bologna Game Farm 2022" },
     ]}
   >
-    {/* %\item Worked on game War of Wheels: a fast-paced multiplayer game about fighting cars in a medieval-punk environment.  */}
     <div>
-      Worked on War of Wheels: a multiplayer game about medieval-punk fighting
-      cars.
+      Founding team. Worked on{" "}
+      <TextLink href="https://www.dreambitsstudio.com/">War of Wheels</TextLink>
+      : a multiplayer game about medieval-punk fighting cars.
     </div>
-    {/* %\item Winners of Bologna Game Farm 2021: funding and entrepreneurial accelerator dedicated to innovative startups. 
-    %\item Participated in many expositions and events like First Playable, GamesCom in Cologne, and GamesConnection in Paris. 
-    %\item Pitched the project to several international publishers and investors, shared ideas, and met devs worldwide.  */}
     <div>
-      - Winners of BGF (funding and accelerator); participated in several
-      international events and expositions while pitching to publishers and
-      investors, and meeting fellow devs.
+      - Winners of <TextLink href="https://bolognagamefarm.com/">BGF</TextLink>{" "}
+      (funding and accelerator); participated in several international events
+      and expositions while pitching to publishers and investors, and meeting
+      fellow devs.
     </div>
-    {/* %\item Engineered a Networking solution for Multiplayer Synchronization. 
-    %\item Worked on the in-game Level-Editor Software Architecture for creating custom arenas. */}
     <div>
       - Took ownership of the multiplayer and proactively guided its design and
       implementation.
@@ -205,24 +188,24 @@ export const experienceDreambits = (
 
 export const experienceSmartBear = (
   <Experience
-    company="SmartBear"
+    company="Smart Bear EU"
     logo="/linkedin/smart_bear_eu_logo.jpeg"
     position="Data Scientist"
     where="Milan, Italy"
-    startDate="Apr. 2022"
+    startDate="April 2022"
     endDate="Oct. 2022"
     duration="6 months"
-    techs="Python, PySpark, Echats.js and several AI/ML libraries"
+    techs="Python, PySpark, Echats.js and AI/ML libraries"
     images={[]}
   >
-    {/* %\item Smart-Bear is a big data platform in healthcare funded by the European Union, offering evidence-based interventions thanks to predictive analytics. \href{https://www.smart-bear.eu/}{website} */}
     <div>
-      <TextLink href="https://www.smart-bear.eu/">SmartBear</TextLink> is a big
-      data platform in healthcare funded by the European Union.
+      <TextLink href="https://www.smart-bear.eu/">Smart-Bear</TextLink> is a big
+      data platform in healthcare funded by the European Union, offering
+      evidence-based interventions thanks to predictive analytics.
     </div>
     <div>
       - Built modular and cloud-optimized pipelines for predictive analysis,
-      data imputation and visualization while protecting user&apos;s health data
+      data imputation and visualization while protecting user's health data
       anonymity.
     </div>
   </Experience>
@@ -230,65 +213,54 @@ export const experienceSmartBear = (
 
 export const experienceFree = (
   <Experience
-    company=""
+    company="Stealth Startup"
     logo="/linkedin/stealth_logo.jpeg"
     position="Software Engineer"
-    where="Milan, Italy"
-    startDate="Sep. 2013"
+    where=""
+    startDate="Sept. 2013"
     endDate="Jan. 2022"
     duration="8 years and 5 months"
     techs="Unity, CSharp, Python, React"
     images={[
-      {
-        src: "/me/svp21.PNG",
-        descr: "",
-      },
-      {
-        src: "/me/mgw19.JPG",
-        descr: "",
-      },
-      {
-        src: "/others/untitle-nature-game.gif",
-        descr: "",
-      },
-      {
-        src: "/others/relow.jpg",
-        descr: "",
-      },
+      { src: "/me/svp21.PNG", descr: "" },
+      { src: "/me/mgw19.JPG", descr: "" },
+      { src: "/others/untitle-nature-game.gif", descr: "" },
+      { src: "/others/relow.jpg", descr: "" },
     ]}
   >
     <div>
-      Since high school I developed several projects from websites to AI
-      automations or videogames. Here are some of the most relevant:
-    </div>
-    <div>
-      -{" "}
-      <TextLink href="https://store.steampowered.com/app/966070/Relow/">
-        RELOW
-      </TextLink>
-      : multiplayer PC game showcased in several expositions like Milan Games
-      Week 2019 and 2020, and Svilupparty 2019 and 2020; attended and given
-      several talks and interviews.
+      Developed several commercial projects from videogames to AI automations or
+      websites. Here are some of the most relevant:
     </div>
     <div>
       -{" "}
       <TextLink href="https://x.com/TommasoRomano_/status/1414574481281101831">
         Untitled Nature Game
       </TextLink>
-      : a prototype game that went viral and got several millions of viewers
-      across TikTok, Reddit and Twitter
+      : a prototype game that went viral with several millions of viewers across
+      TikTok, Reddit and Twitter. It caught the attention of several investors
+      and publishers.
+    </div>
+    <div>
+      -{" "}
+      <TextLink href="https://store.steampowered.com/app/966070/Relow/">
+        RELOW
+      </TextLink>
+      : a solo-developed multiplayer game, released in 2020, showcased in
+      several expositions like Milan Games Week 2019 and 2020, and Svilupparty
+      2019 and 2020; attended and given several talks and interviews.
     </div>
     <div>
       -{" "}
       <TextLink href="https://store.steampowered.com/app/444490/POLYWAR/">
         POLYWAR
       </TextLink>
-      : multiplayer game released in 2016 in collaboration with the editors New
-      Reality Games
+      : multiplayer game released in 2016 in collaboration with the publisher
+      New Reality Games
     </div>
     <div>
-      - Easy Insta Growth: 2020-2021 an Instagram AI automation developed and
-      online on Fiverr.
+      - Easy Insta Growth: 2020-2021 an Instagram AI automation, with hundreds
+      of clients worldwide.
     </div>
     <div>- Freelance worked on several websites</div>
   </Experience>

@@ -25,6 +25,9 @@
         "Robotics. Research team mainly composed of PhD Applied Scientists. Mission: develop robots to pick any kind of item from human-task-designed pods in warehouses. IEEE",
         "- Designed from scratch a flexible, modular and extensible architecture for the operators UI, to speed up the development's pipeline, and to enable external testing.",
         "- Took ownership of the project and worked side by side with stakeholders; suggested and guided the refactoring the whole team data schema."
+      ],
+      [
+        "- Won the internal hackathon with a project about streaming and remote controlling the Universal Robots by using",
       ]
     ],
     "desc_links": {

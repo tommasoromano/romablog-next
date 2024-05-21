@@ -9,6 +9,19 @@
     "images": []
   },
   {
+    "name": "BuddyPay - AWS Cloud",
+    "link": "https://buddypay.tommasoromano.com",
+    "period": "May 2024 - June 2024",
+    "descriptions": [
+      [
+        "A university project about developing microservices using the API gateway architecture in order to support load balancing, fault tolerance, and security."
+      ]
+    ],
+    "desc_links": {},
+    "tech": "AWS Cloud: API Gateway, Cognito, Lambda, SQS, DynamoDB, Next.js",
+    "images": []
+  },
+  {
     "name": "Distributed Systems",
     "link": "",
     "period": "June 2023 - July 2023",

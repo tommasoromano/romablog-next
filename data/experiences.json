@@ -23,7 +23,7 @@
     "descriptions": [
       [
         "Robotics. Research team mainly composed of PhD Applied Scientists. Mission: develop robots to pick any kind of item from human-task-designed pods in warehouses. IEEE",
-        "- Designed from scratch a flexible, modular and extensible architecture for the operators UI, to speed up the development's pipeline, and to enable external testing.",
+        "- Designed from scratch a flexible, modular and extensible architecture for the operators UI, to speed up the development pipeline, and to enable external testing.",
         "- Took ownership of the project and worked side by side with stakeholders; suggested and guided the refactoring the whole team data schema."
       ],
       [
@@ -56,11 +56,11 @@
     "descriptions": [
       [
         "FamaLabs is an experienced company in distributed systems and cloud architectures in healthcare.",
-        "- Built the modular survey's engine and compiler, and designed UI library for MAP (Medical Adaptive Platform): a dashboard built for doctors to easily manage CRF and more."
+        "- Built the modular survey engine and compiler, and designed UI library for MAP (Medical Adaptive Platform): a dashboard built for doctors to easily manage CRF and more."
       ],
       [
         "Engineered the architecture and reusable software for MAP (Medical Adaptive Platform): a dashboard built for doctors to easily manage CRF, surveys, and more.",
-        "Built the flexible survey's engine and compiler; designed library map-ui: a React UIKit for web dashboard."
+        "Built the flexible survey engine and compiler; designed library map-ui: a React UIKit for web dashboard."
       ]
     ],
     "desc_links": {
@@ -80,7 +80,7 @@
     "descriptions": [
       [
         "Smart-Bear is a big data platform in healthcare funded by the European Union, offering evidence-based interventions thanks to predictive analytics.",
-        "- Built modular and cloud-optimized pipelines for predictive analysis, data imputation and visualization while protecting user's health data anonymity."
+        "- Built modular and cloud-optimized pipelines for predictive analysis, data imputation and visualization while protecting user health data anonymity."
       ],
       [
         "- Worked on Data Imputation, Data Augmentation, and Data Visualization.",

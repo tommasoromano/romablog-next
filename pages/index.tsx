@@ -13,6 +13,15 @@ import {
   expSmartBearEU,
   expStealthStartup,
 } from "../components/experiences";
+import { proj1, proj3, proj4 } from "../components/projects";
+import {
+  reco14,
+  reco18,
+  reco21,
+  reco22,
+  reco23,
+  reco24,
+} from "../components/recognitions";
 
 const Home: NextPage<{ allPostsData: Post[] }> = ({
   allPostsData,
@@ -79,7 +88,12 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
       <section className="mx-auto max-w-screen-sm px-4">
         <main className="mb-auto">
           {intro}
-          <div className="mb-4 text-2xl font-bold">Experience</div>
+          <div className="mb-4 text-2xl font-bold">
+            Experience
+            <span className="ml-2 text-sm font-normal">
+              A selected list of work experiences
+            </span>
+          </div>
           <div className="flex w-full flex-col space-y-8">
             {expAmazon}
             {expFamaLabs}
@@ -87,15 +101,33 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
             {expSmartBearEU}
             {expStealthStartup}
           </div>
-          {/* <div className="mt-8 mb-4 text-2xl font-bold">
-            Recognitions */}
-          {/* <br />
-            <span className="text-sm font-normal">
-              A selected list of recognitions
-            </span> */}
-          {/* </div>
+          <div className="pt-4 pb-4 flex items-center justify-center"></div>
+          <div className="mt-8 mb-4 text-2xl font-bold">
+            Projects
+            {/* <br /> */}
+            <span className="ml-2 text-sm font-normal">
+              A selected list of projects
+            </span>
+          </div>
           <div className="flex w-full flex-col space-y-8">
-            {selectedRecognitions.map((e) => e)}
+            {proj4}
+            {proj3}
+            {proj1}
+          </div>
+          {/* <div className="pt-4 pb-4 flex items-center justify-center"></div>
+          <div className="mt-8 mb-4 text-2xl font-bold">
+            Recognitions and Awards
+            <span className="ml-2 text-sm font-normal">
+              A selected list of recognitions, awards and achievements
+            </span>
+          </div>
+          <div className="flex w-full flex-col space-y-8">
+            {reco23}
+            {reco22}
+            {reco21}
+            {reco18}
+            {reco24}
+            {reco14}
           </div> */}
         </main>
 

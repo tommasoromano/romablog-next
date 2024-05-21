@@ -1,3 +1,4 @@
+import { ExternalLink } from "lucide-react";
 import { TextLink } from "./Link";
 
 export const Recognition = ({
@@ -20,9 +21,10 @@ export const Recognition = ({
   return (
     <div className="flex w-full flex-col text-sm">
       <div className="flex flex-col md:flex-row justify-between">
-        <div className="font-bold">
+        <div className="flex gap-2 font-bold">
           {link !== "" && <TextLink href={link}>{title}</TextLink>}
           {link === "" && title}
+          {/* {link !== "" && <ExternalLink className="h-4 w-4" />} */}
         </div>
         <div>
           {tag !== "" && tag + " • "}

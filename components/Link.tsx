@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { LinkProps } from "next/link";
 import { AnchorHTMLAttributes } from "react";
 import { RainboWBg, RainbowText } from "./Rainbow";
+import { ExternalLink } from "lucide-react";
 
 const CustomLink = ({
   href,
@@ -33,10 +34,7 @@ export const TextLink = ({
   return (
     // <RainbowText>
     <span className="decoration-primary font-bold underline">
-      <CustomLink href={href ? href : "#"}>
-        {children}
-        {/* {href && !href.startsWith('#') && '🔗'} */}
-      </CustomLink>
+      <CustomLink href={href ? href : "#"}>{children}</CustomLink>
     </span>
     // </RainbowText>
   );

@@ -22,7 +22,7 @@ const Projects: NextPage = () => {
         <main className="mb-auto">
           <div className="pt-8 mb-4 text-2xl font-bold">Projects</div>
           <div className="flex w-full flex-col space-y-8">
-            {projAll.map((e) => e)}
+            {projAll.reverse().map((e) => e)}
           </div>
         </main>
 

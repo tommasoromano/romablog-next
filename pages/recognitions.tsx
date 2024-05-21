@@ -17,7 +17,7 @@ const Recognitions: NextPage = () => {
         <main className="mb-auto">
           <div className="pt-8 mb-4 text-2xl font-bold">Recognitions</div>
           <div className="flex w-full flex-col space-y-8">
-            {recoAll.map((e) => e)}
+            {recoAll.reverse().map((e) => e)}
           </div>
         </main>
 

@@ -72,7 +72,16 @@ export const proj4 = (
     tag=""
     when="May 2024 - June 2024"
     techs="AWS Cloud: API Gateway, Cognito, Lambda, SQS, DynamoDB, Next.js"
-    images={[]}
+    images={[
+      {
+        src: "https://github.com/tommasoromano/cloud-project/blob/main/assets/schema_high.jpeg?raw=true",
+        descr: "",
+      },
+      {
+        src: "https://github.com/tommasoromano/cloud-project/blob/main/assets/home_demo.png?raw=true",
+        descr: "",
+      },
+    ]}
   >
     <div>
       A university project about developing microservices using the API gateway

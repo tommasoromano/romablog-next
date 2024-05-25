@@ -1,5 +1,6 @@
 import { ExternalLink } from "lucide-react";
 import { TextLink } from "./Link";
+import Image from "next/image";
 
 export const Recognition = ({
   title,
@@ -54,7 +55,15 @@ export const Recognition = ({
                   style={{
                     backgroundImage: `url(${image.src})`,
                   }}
-                ></div>
+                >
+                  {/* <Image
+                    src={image.src}
+                    alt={image.descr}
+                    width={128 * (16 / 9)}
+                    height={128}
+                    className="rounded-md"
+                  /> */}
+                </div>
               ))}
             </div>
           </div>

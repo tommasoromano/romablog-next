@@ -22,6 +22,7 @@ import {
   reco23,
   reco24,
 } from "../components/recognitions";
+import Image from "next/image";
 
 const Home: NextPage<{ allPostsData: Post[] }> = ({
   allPostsData,
@@ -30,18 +31,22 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
 }) => {
   const intro = (
     <div className="flex h-full h-screen w-full flex-col items-center justify-center space-y-1 text-center">
-      <div className="mb-6 aspect-square w-full max-w-48 rounded-full">
-        <div
+      <div className="mb-6">
+        {/* <div className="mb-6 aspect-square w-full max-w-48 rounded-full"> */}
+        <Image
+          src={"/me/me_2023_05_final_square.jpg"}
+          alt="Tommaso Romano"
+          width={192}
+          height={192}
+          className="rounded-full"
+        />
+        {/* <div
           className="h-full w-full rounded-full bg-cover bg-center p-4"
           style={{
             backgroundImage: `url(/me/me_2023_05_final_square.jpg)`,
           }}
         >
-          {/* <img
-            src="/static/images/me/me_2023_05_final_square.jpg"
-            className="h-full w-full rounded-full"
-          /> */}
-        </div>
+        </div> */}
       </div>
       <div className="mb-4 text-2xl font-semibold">
         Hey

@@ -74,11 +74,11 @@ export const proj4 = (
     techs="AWS Cloud: API Gateway, Cognito, Lambda, SQS, DynamoDB, Next.js"
     images={[
       {
-        src: "https://github.com/tommasoromano/cloud-project/blob/main/assets/schema_high.jpeg?raw=true",
+        src: "/others/schema_high.jpeg",
         descr: "",
       },
       {
-        src: "https://github.com/tommasoromano/cloud-project/blob/main/assets/home_demo.png?raw=true",
+        src: "/others/home_demo.png",
         descr: "",
       },
     ]}

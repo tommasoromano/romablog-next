@@ -12,8 +12,8 @@ export const expStealthStartup = (
     duration="8 years and 5 months"
     techs="Unity, CSharp, Python, React"
     images={[
-      { src: "/me/svp21.PNG", descr: "" },
-      { src: "/me/mgw19.JPG", descr: "" },
+      { src: "/me/svp21.PNG", descr: "Tommaso Romano SVP" },
+      { src: "/me/mgw19.JPG", descr: "Tommaso Romano MGW" },
       { src: "/others/untitle-nature-game.gif", descr: "" },
       { src: "/others/relow.jpg", descr: "" },
     ]}
@@ -66,9 +66,12 @@ export const expDrembitsStudio = (
     duration="1 year and 6 months"
     techs="Unity, CSharp, PhotonEngine, Python"
     images={[
-      { src: "/me/gc_2022.JPG", descr: "GamesCom 2022" },
-      { src: "/me/gcparis_2022.jpeg", descr: "Game Connection Paris 2022" },
-      { src: "/me/bgf_0.jpg", descr: "Bologna Game Farm 2022" },
+      { src: "/me/gc_2022.JPG", descr: "Tommaso Romano GamesCom 2022" },
+      {
+        src: "/me/gcparis_2022.jpeg",
+        descr: "Tommaso Romano Game Connection Paris 2022",
+      },
+      { src: "/me/bgf_0.jpg", descr: "Tommaso Romano Bologna Game Farm 2022" },
     ]}
   >
     <div>
@@ -149,7 +152,7 @@ export const expAmazon = (
     images={[
       { src: "/amazon/cup.jpeg", descr: "" },
       {
-        src: "https://spectrum.ieee.org/media-library/a-photo-of-a-robotic-system-stowing-items-in-an-amazon-warehouse.jpg?id=32625002&width=1580&quality=85",
+        src: "/amazon/robotic.jpeg",
         descr: "",
       },
     ]}

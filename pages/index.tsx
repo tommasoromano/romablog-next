@@ -116,7 +116,7 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
             {proj3}
             {proj1}
           </div>
-          <div className="pt-4 pb-4 flex items-center justify-center"></div>
+          {/* <div className="pt-4 pb-4 flex items-center justify-center"></div>
           <div className="mt-8 mb-4 text-2xl font-bold">
             <TextLink href="/recognitions">Recognitions and Awards</TextLink>
             <span className="ml-2 text-sm font-normal">A selected list</span>
@@ -128,7 +128,7 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
             {reco18}
             {reco24}
             {reco14}
-          </div>
+          </div> */}
         </main>
 
         <Footer />

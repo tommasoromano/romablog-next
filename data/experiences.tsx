@@ -1,5 +1,5 @@
-import { Experience } from "./Experience";
-import { TextLink } from "./Link";
+import { Experience } from "../components/Experience";
+import { TextLink } from "../components/Link";
 
 export const expStealthStartup = (
   <Experience

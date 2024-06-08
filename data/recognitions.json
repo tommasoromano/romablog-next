@@ -1,140 +1,196 @@
 [
   {
-    "name": "",
+    "name": "JavaScript for world creators",
     "link": "",
-    "period": "",
-    "descriptions": [[""]],
+    "period": "Oct. 2016 - Dec. 2016",
+    "descriptions": [
+      ["Python, HTML, CSS and JavaScript to create websites and videogames"],
+      [
+        "October 2016 - December 2016, Prof. Francesco Bruschi and Prof. Vincenzo Rana"
+      ]
+    ],
+    "desc_links": {},
+    "tag": "Course",
+    "images": []
+  },
+  {
+    "name": "Green entrepreneurship",
+    "link": "https://www.jaworldwide.org/",
+    "period": "Feb. 2018 - May 2018",
+    "descriptions": [
+      [
+        "Green Jobs is a program of entrepreneurial education in the environmental field, which integrates the methodology of the company JA with training meetings aimed at green entrepreneurship by InVento Innovation Lab"
+      ],
+      ["Junior Achievement Italia & InVento Innovation Lab"]
+    ],
+    "desc_links": {},
+    "tag": "Accelerator",
+    "images": []
+  },
+  {
+    "name": "Pitch and Publishers",
+    "link": "",
+    "period": "March 2018",
+    "descriptions": [
+      ["Lorenzo Grimaldi at Copernico Milano"],
+      ["An overview about game industry and publishing"]
+    ],
+    "desc_links": {},
+    "tag": "Talk",
+    "images": []
+  },
+  {
+    "name": "The word to the new millennium",
+    "link": "https://blog.twico.it/la-parola-al-nuovo-millennio-3ca6a6671257",
+    "period": "04 July 2018",
+    "descriptions": [
+      ["Elisabetta Solito for Twico"],
+      [
+        "Interview with Tommaso, guest student at Twico for a school-work alternation project"
+      ]
+    ],
+    "desc_links": {},
+    "tag": "Interview",
+    "images": []
+  },
+  {
+    "name": "Milan Games Week 2019",
+    "link": "",
+    "period": "27-29 Sept. 2019",
+    "descriptions": [["Showcased RELOW at Milan Games Week 2019"]],
     "desc_links": {},
     "tag": "",
+    "images": [{ "descr": "Tommaso Romano MGW", "src": "/me/mgw19.JPG" }]
+  },
+  {
+    "name": "One Man Show",
+    "link": "",
+    "period": "14 Oct. 2019",
+    "descriptions": [["Raffaele Cinquegrana for Console Generation"]],
+    "desc_links": {},
+    "tag": "Article",
     "images": []
   },
   {
-    "name": "Top 100 in the Italian game industry (2023)",
-    "link": "https://startupitalia.eu/le-100-e-piu-persone-da-seguire-nel-mondo-dei-videogiochi-in-italia-lista-in-aggiornamento",
-    "period": "16 July 2023",
+    "name": "When talent walks alone",
+    "link": "https://www.4gamehz.com/2019/10/14/intervista-a-tommaso-romano-quando-il-talento-cammina-solitario-per-la-propria-strada/?utm_source=rss&utm_medium=rss&utm_campaign=intervista-a-tommaso-romano-quando-il-talento-cammina-solitario-per-la-propria-strada",
+    "period": "14 Oct. 2019",
     "descriptions": [
+      ["Roberto di Marino for 4GameHZ"],
       [
-        "I have been nominated in this list by StartupItalia that consists of professional allowing italian videogame industry to shine in the world of creativity"
+        "We had the enormous pleasure and stellar honor of being able to meet one of these lonely talents, one of those characters who can only make us proud of how the Italian indie scene is growing and enriching itself with such valid elements"
       ]
     ],
     "desc_links": {},
-    "tag": "Award",
+    "tag": "Article",
     "images": []
   },
   {
-    "name": "University Startup Challenge 2023 Finalist",
-    "link": "https://www.linkedin.com/posts/tommaso-romano-developer_startup-innovation-energy-activity-7050766312649682945-Dj1B?utm_source=share&utm_medium=member_desktop",
-    "period": "24-31 March 2023",
+    "name": "The story of Tommaso Romano",
+    "link": "https://ludenz.podbean.com/e/editori-parassiti-per-giovani-sviluppatori-la-storia-di-tommaso-romano/",
+    "period": "27 Oct. 2019",
     "descriptions": [
+      ["Luigi Marrone for Ludenz"],
       [
-        "Organized by Politecnico di Milano and Bocconi, it consists in pitching to investors a startup idea focused on energy and climate, after a week of workshops and talks."
+        "the meeting with the young developer Tommaso Romanò, a nineteen year old game designer selected for his game Relow"
       ]
     ],
     "desc_links": {},
-    "tag": "Startup Hackathon",
-    "images": [
-      {
-        "descr": "University Startup Challenge 2023 Finalist",
-        "src": "/me/usc2023.jpeg"
-      }
-    ]
-  },
-  {
-    "name": "GameConnection Paris 2022",
-    "link": "https://www.linkedin.com/posts/tommaso-roman%C3%B2-developer_game-connection-europe-was-great-it-was-activity-6995741933381824512-yw6X?utm_source=share&utm_medium=member_desktop",
-    "period": "3-4 Nov. 2022",
-    "descriptions": [
-      [
-        "I have took part at the Game Connection Paris: the deal making event for the video game industry. Game Connection is the international event where developers, publishers, distributors and service providers come to find new partners and clients."
-      ]
-    ],
-    "desc_links": {},
-    "tag": "Event",
-    "images": [
-      {
-        "descr": "",
-        "src": "/me/gcparis_2022.jpeg"
-      }
-    ]
-  },
-  {
-    "name": "GamesCom 2022",
-    "link": "https://www.linkedin.com/posts/tommaso-roman%C3%B2-developer_gamescom-business-pitching-activity-6970629214131605505-0xqz",
-    "period": "23-25 Aug. 2023",
-    "descriptions": [
-      [
-        "I have represented Italy in the world biggest game business event: GamesCom in Cologne, Germany. Pitched the project War of Wheels, met business partners and shared ideas with developers all over the world. Italian pavilion organized by IIDEA, Italian Trade Agency and Ministry of Foreign Affairs."
-      ]
-    ],
-    "desc_links": {},
-    "tag": "Event",
-    "images": [
-      {
-        "descr": "",
-        "src": "/me/gc_2022.JPG"
-      }
-    ]
-  },
-  {
-    "name": "Top 100 in the Italian game industry (2022)",
-    "link": "https://startupitalia.eu/97380-20220717-163-persone-che-contano-e-da-seguire-nel-mondo-dei-videogiochi-in-italia",
-    "period": "17 July 2022",
-    "descriptions": [
-      [
-        "I have been nominated in this list by StartupItalia that consists of professional allowing italian videogame industry to shine in the world of creativity"
-      ]
-    ],
-    "desc_links": {},
-    "tag": "Award",
+    "tag": "Interview",
     "images": []
   },
   {
-    "name": "First Playable 2022",
-    "link": "https://firstplayable.it",
-    "period": "6-8 July 2022",
+    "name": "An introduction to Game Development",
+    "link": "",
+    "period": "13 April 2020 @ LSS Vittorio Veneto, Milano",
     "descriptions": [
       [
-        "I have brought the project War of Wheels to Firts Playable, which is Italy leading international event about game business. Coaching, talking and pitching to international publishers and investment founds"
+        "A brief lecture to Game Development: technologies, professionals and work positions"
       ]
     ],
     "desc_links": {},
-    "tag": "Event",
-    "images": [
-      {
-        "descr": "First Playable 2022",
-        "src": "/me/fp_2022.JPG"
-      }
-    ]
+    "tag": "Speaker",
+    "images": []
   },
   {
-    "name": "Bologna Game Farm",
-    "link": "https://bolognagamefarm.com",
-    "period": "Dec. 2021 - July 2022",
+    "name": "Svilupparty 2020",
+    "link": "",
+    "period": "6 Sept. 2020",
+    "descriptions": [["Showcased RELOW at Bologna, Italy"]],
+    "desc_links": {},
+    "tag": "Expo",
+    "images": []
+  },
+  {
+    "name": "The Making of RELOW",
+    "link": "",
+    "period": "6 Sept. 2020 @ Svilupparty 2020, Bologna",
+    "descriptions": [["Post-mortem talk of the multiplayer game RELOW"]],
+    "desc_links": {},
+    "tag": "Speaker",
+    "images": [{ "descr": "Tommaso Romano SVP", "src": "/me/svp20.PNG" }]
+  },
+  {
+    "name": "Milan Games Week X",
+    "link": "",
+    "period": "27 Nov. 2020",
     "descriptions": [
       [
-        "Winners with War of Wheels. Bologna Game Farm is a funding and entrepreneurial accelerator dedicated to innovative startups for the development of videogames."
-      ],
-      [
-        "Winners with War of Wheels. Bologna Game Farm is a funding and accelerator initiative dedicated to innovative startups for the development of videogames. Lead by Ivan Venturi, Luca Marchetti, Gianluca Marani. Promoted by Regione Emilia Romagna, Comune di Bologna, in collaboration with IIDEA"
+        "Showcased RELOW at Milan Games Week X on Twitch (online due to the pandemic)"
       ]
     ],
     "desc_links": {},
-    "tag": "Funding and Accelerator",
-    "images": [
-      {
-        "src": "/me/bgf_0.jpg",
-        "descr": "Bologna Game Farm 2022"
-      }
-    ]
+    "tag": "Expo",
+    "images": []
   },
   {
-    "name": "This Gun in Unity Creates Climbable Ivy",
-    "link": "https://80.lv/articles/this-gun-in-unity-creates-climbable-ivy/",
-    "period": "25 Oct. 2021",
+    "name": "One Man Company (Round Table)",
+    "link": "",
+    "period": "29 Nov. 2020",
     "descriptions": [
-      ["Arti Burton for 80LVL"],
       [
-        "Tommaso Romanò shared a look at an updated version of his procedural gun"
+        "Emilio Cozzi, with Fortuna Imperatore and Johnny Lonack. Pros and cons of working as a Solo-Game-Developer"
+      ]
+    ],
+    "desc_links": {},
+    "tag": "Interview",
+    "images": []
+  },
+  {
+    "name": "A Reddit User Has Created a Procedural Ivy Generator",
+    "link": "https://80.lv/articles/a-reddit-user-has-created-a-procedural-ivy-generator/",
+    "period": "23 June 2021",
+    "descriptions": [
+      ["Theodore Nikitinfor for 80LVL"],
+      [
+        "A Reddit user Tommaso Romanò has created a procedural ivy generator in Unity"
+      ]
+    ],
+    "desc_links": {},
+    "tag": "Article",
+    "images": []
+  },
+  {
+    "name": "Social Media for Game Developers",
+    "link": "",
+    "period": "10 July 2021 @ Svilupparty 2021, Bologna",
+    "descriptions": [
+      [
+        "Been invited to speak about Social Medias for Game Developers: Twitter, YouTube, Facebook, Reddit and TikTok to boost GameDev explosure"
+      ]
+    ],
+    "desc_links": {},
+    "tag": "Speaker",
+    "images": [{ "descr": "Tommaso Romano SVP", "src": "/me/svp21.PNG" }]
+  },
+  {
+    "name": "A Game Developer Makes a Gun That Creates Flower Bridges",
+    "link": "https://80.lv/articles/a-game-developer-makes-a-gun-that-creates-flower-bridges/",
+    "period": "14 July 2021",
+    "descriptions": [
+      ["Kseniya Serebrennikova for 80LVL"],
+      [
+        "Italian Developer Tommaso Romano created another beautiful vegetation generator in Unity"
       ]
     ],
     "desc_links": {},
@@ -155,13 +211,13 @@
     "images": []
   },
   {
-    "name": "A Game Developer Makes a Gun That Creates Flower Bridges",
-    "link": "https://80.lv/articles/a-game-developer-makes-a-gun-that-creates-flower-bridges/",
-    "period": "14 July 2021",
+    "name": "This Gun in Unity Creates Climbable Ivy",
+    "link": "https://80.lv/articles/this-gun-in-unity-creates-climbable-ivy/",
+    "period": "25 Oct. 2021",
     "descriptions": [
-      ["Kseniya Serebrennikova for 80LVL"],
+      ["Arti Burton for 80LVL"],
       [
-        "Italian Developer Tommaso Romano created another beautiful vegetation generator in Unity"
+        "Tommaso Romanò shared a look at an updated version of his procedural gun"
       ]
     ],
     "desc_links": {},
@@ -169,202 +225,126 @@
     "images": []
   },
   {
-    "name": "Social Media for Game Developers",
-    "link": "",
-    "period": "10 July 2021 @ Svilupparty 2021, Bologna",
+    "name": "Bologna Game Farm",
+    "link": "https://bolognagamefarm.com",
+    "period": "Dec. 2021 - July 2022",
     "descriptions": [
       [
-        "Been invited to speak about Social Medias for Game Developers: Twitter, YouTube, Facebook, Reddit and TikTok to boost GameDev explosure"
+        "Winners with War of Wheels. Bologna Game Farm is a funding and entrepreneurial accelerator dedicated to innovative startups for the development of videogames."
+      ],
+      [
+        "Winners with War of Wheels. Bologna Game Farm is a funding and accelerator initiative dedicated to innovative startups for the development of videogames. Lead by Ivan Venturi, Luca Marchetti, Gianluca Marani. Promoted by Regione Emilia Romagna, Comune di Bologna, in collaboration with IIDEA"
       ]
     ],
     "desc_links": {},
-    "tag": "Speaker",
+    "tag": "Funding and Accelerator",
     "images": [
       {
-        "descr": "",
-        "src": "/me/svp21.PNG"
+        "src": "/me/bgf_0.jpg",
+        "descr": "Tommaso Romano Bologna Game Farm 2022"
       }
     ]
   },
   {
-    "name": "A Reddit User Has Created a Procedural Ivy Generator",
-    "link": "https://80.lv/articles/a-reddit-user-has-created-a-procedural-ivy-generator/",
-    "period": "23 June 2021",
+    "name": "First Playable 2022",
+    "link": "https://firstplayable.it",
+    "period": "6-8 July 2022",
     "descriptions": [
-      ["Theodore Nikitinfor for 80LVL"],
       [
-        "A Reddit user Tommaso Romanò has created a procedural ivy generator in Unity"
+        "I have brought the project War of Wheels to Firts Playable, which is Italy leading international event about game business. Coaching, talking and pitching to international publishers and investment founds"
       ]
     ],
     "desc_links": {},
-    "tag": "Article",
-    "images": []
-  },
-  {
-    "name": "One Man Company (Round Table)",
-    "link": "",
-    "period": "29 Nov. 2020",
-    "descriptions": [
-      [
-        "Emilio Cozzi, with Fortuna Imperatore and Johnny Lonack. Pros and cons of working as a Solo-Game-Developer"
-      ]
-    ],
-    "desc_links": {},
-    "tag": "Interview",
-    "images": []
-  },
-  {
-    "name": "Milan Games Week X",
-    "link": "",
-    "period": "27 Nov. 2020",
-    "descriptions": [
-      [
-        "Showcased RELOW at Milan Games Week X on Twitch (online due to the pandemic)"
-      ]
-    ],
-    "desc_links": {},
-    "tag": "Expo",
-    "images": []
-  },
-  {
-    "name": "The Making of RELOW",
-    "link": "",
-    "period": "6 Sept. 2020 @ Svilupparty 2020, Bologna",
-    "descriptions": [["Post-mortem talk of the multiplayer game RELOW"]],
-    "desc_links": {},
-    "tag": "Speaker",
+    "tag": "Event",
     "images": [
       {
-        "descr": "",
-        "src": "/me/svp20.PNG"
+        "descr": "Tommaso Romano First Playable 2022",
+        "src": "/me/fp_2022.JPG"
       }
     ]
   },
   {
-    "name": "Svilupparty 2020",
-    "link": "",
-    "period": "6 Sept. 2020",
-    "descriptions": [["Showcased RELOW at Bologna, Italy"]],
-    "desc_links": {},
-    "tag": "Expo",
-    "images": []
-  },
-  {
-    "name": "An introduction to Game Development",
-    "link": "",
-    "period": "13 April 2020 @ LSS Vittorio Veneto, Milano",
+    "name": "Top 100 in the Italian game industry (2022)",
+    "link": "https://startupitalia.eu/97380-20220717-163-persone-che-contano-e-da-seguire-nel-mondo-dei-videogiochi-in-italia",
+    "period": "17 July 2022",
     "descriptions": [
       [
-        "A brief lecture to Game Development: technologies, professionals and work positions"
+        "I have been nominated in this list by StartupItalia that consists of professional allowing italian videogame industry to shine in the world of creativity"
       ]
     ],
     "desc_links": {},
-    "tag": "Speaker",
+    "tag": "Award",
     "images": []
   },
   {
-    "name": "The story of Tommaso Romano",
-    "link": "https://ludenz.podbean.com/e/editori-parassiti-per-giovani-sviluppatori-la-storia-di-tommaso-romano/",
-    "period": "27 Oct. 2019",
+    "name": "GamesCom 2022",
+    "link": "https://www.linkedin.com/posts/tommaso-roman%C3%B2-developer_gamescom-business-pitching-activity-6970629214131605505-0xqz",
+    "period": "23-25 Aug. 2023",
     "descriptions": [
-      ["Luigi Marrone for Ludenz"],
       [
-        "the meeting with the young developer Tommaso Romanò, a nineteen year old game designer selected for his game Relow"
+        "I have represented Italy in the world biggest game business event: GamesCom in Cologne, Germany. Pitched the project War of Wheels, met business partners and shared ideas with developers all over the world. Italian pavilion organized by IIDEA, Italian Trade Agency and Ministry of Foreign Affairs."
       ]
     ],
     "desc_links": {},
-    "tag": "Interview",
-    "images": []
+    "tag": "Event",
+    "images": [{ "descr": "Tommaso Romano GamesCom", "src": "/me/gc_2022.JPG" }]
   },
   {
-    "name": "When talent walks alone",
-    "link": "https://www.4gamehz.com/2019/10/14/intervista-a-tommaso-romano-quando-il-talento-cammina-solitario-per-la-propria-strada/?utm_source=rss&utm_medium=rss&utm_campaign=intervista-a-tommaso-romano-quando-il-talento-cammina-solitario-per-la-propria-strada",
-    "period": "14 Oct. 2019",
+    "name": "GameConnection Paris 2022",
+    "link": "https://www.linkedin.com/posts/tommaso-roman%C3%B2-developer_game-connection-europe-was-great-it-was-activity-6995741933381824512-yw6X?utm_source=share&utm_medium=member_desktop",
+    "period": "3-4 Nov. 2022",
     "descriptions": [
-      ["Roberto di Marino for 4GameHZ"],
       [
-        "We had the enormous pleasure and stellar honor of being able to meet one of these lonely talents, one of those characters who can only make us proud of how the Italian indie scene is growing and enriching itself with such valid elements"
+        "I have took part at the Game Connection Paris: the deal making event for the video game industry. Game Connection is the international event where developers, publishers, distributors and service providers come to find new partners and clients."
       ]
     ],
     "desc_links": {},
-    "tag": "Article",
-    "images": []
+    "tag": "Event",
+    "images": [
+      {
+        "descr": "Tommaso Romano GameConnection",
+        "src": "/me/gcparis_2022.jpeg"
+      }
+    ]
   },
   {
-    "name": "One Man Show",
-    "link": "",
-    "period": "14 Oct. 2019",
-    "descriptions": [["Raffaele Cinquegrana for Console Generation"]],
+    "name": "University Startup Challenge 2023 Finalist",
+    "link": "https://www.linkedin.com/posts/tommaso-romano-developer_startup-innovation-energy-activity-7050766312649682945-Dj1B?utm_source=share&utm_medium=member_desktop",
+    "period": "24-31 March 2023",
+    "descriptions": [
+      [
+        "Organized by Politecnico di Milano and Bocconi, it consists in pitching to investors a startup idea focused on energy and climate, after a week of workshops and talks."
+      ]
+    ],
     "desc_links": {},
-    "tag": "Article",
+    "tag": "Startup Hackathon",
+    "images": [
+      {
+        "descr": "Tommaso Romano University Startup Challenge 2023 Finalist",
+        "src": "/me/usc2023.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Top 100 in the Italian game industry (2023)",
+    "link": "https://startupitalia.eu/le-100-e-piu-persone-da-seguire-nel-mondo-dei-videogiochi-in-italia-lista-in-aggiornamento",
+    "period": "16 July 2023",
+    "descriptions": [
+      [
+        "I have been nominated in this list by StartupItalia that consists of professional allowing italian videogame industry to shine in the world of creativity"
+      ]
+    ],
+    "desc_links": {},
+    "tag": "Award",
     "images": []
   },
   {
-    "name": "Milan Games Week 2019",
+    "name": "",
     "link": "",
-    "period": "27-29 Sept. 2019",
-    "descriptions": [["Showcased RELOW at Milan Games Week 2019"]],
+    "period": "",
+    "descriptions": [[""]],
     "desc_links": {},
     "tag": "",
-    "images": [
-      {
-        "descr": "",
-        "src": "/me/mgw19.JPG"
-      }
-    ]
-  },
-  {
-    "name": "The word to the new millennium",
-    "link": "https://blog.twico.it/la-parola-al-nuovo-millennio-3ca6a6671257",
-    "period": "04 July 2018",
-    "descriptions": [
-      ["Elisabetta Solito for Twico"],
-      [
-        "Interview with Tommaso, guest student at Twico for a school-work alternation project"
-      ]
-    ],
-    "desc_links": {},
-    "tag": "Interview",
-    "images": []
-  },
-  {
-    "name": "Pitch and Publishers",
-    "link": "",
-    "period": "March 2018",
-    "descriptions": [
-      ["Lorenzo Grimaldi at Copernico Milano"],
-      ["An overview about game industry and publishing"]
-    ],
-    "desc_links": {},
-    "tag": "Talk",
-    "images": []
-  },
-  {
-    "name": "Green entrepreneurship",
-    "link": "https://www.jaworldwide.org/",
-    "period": "Feb. 2018 - May 2018",
-    "descriptions": [
-      [
-        "Green Jobs is a program of entrepreneurial education in the environmental field, which integrates the methodology of the company JA with training meetings aimed at green entrepreneurship by InVento Innovation Lab"
-      ],
-      ["Junior Achievement Italia & InVento Innovation Lab"]
-    ],
-    "desc_links": {},
-    "tag": "Accelerator",
-    "images": []
-  },
-  {
-    "name": "JavaScript for world creators",
-    "link": "",
-    "period": "Oct. 2016 - Dec. 2016",
-    "descriptions": [
-      ["Python, HTML, CSS and JavaScript to create websites and videogames"],
-      [
-        "October 2016 - December 2016, Prof. Francesco Bruschi and Prof. Vincenzo Rana"
-      ]
-    ],
-    "desc_links": {},
-    "tag": "Course",
     "images": []
   }
 ]

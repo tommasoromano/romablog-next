@@ -1,53 +1,15 @@
 [
   {
-    "name": "",
+    "name": "SWAGVote",
     "link": "",
-    "period": "",
-    "descriptions": [[""]],
-    "desc_links": {},
-    "tech": "",
-    "images": []
-  },
-  {
-    "name": "BuddyPay - AWS Cloud",
-    "link": "https://buddypay.tommasoromano.com",
-    "period": "May 2024 - June 2024",
+    "period": "October 2021 - January 2022",
     "descriptions": [
       [
-        "A university project about developing microservices using the API gateway architecture in order to support load balancing, fault tolerance, and security."
+        "A University project about creating a system for online voting: creating, managing and counting electoral votes. Engineering the architecture and reusable software using diagrams like Use Cases, Class Diagram, Sequence Diagram, UML, FSM."
       ]
     ],
     "desc_links": {},
-    "tech": "AWS Cloud: API Gateway, Cognito, Lambda, SQS, DynamoDB, Next.js",
-    "images": []
-  },
-  {
-    "name": "Distributed Systems",
-    "link": "",
-    "period": "June 2023 - July 2023",
-    "descriptions": [
-      [
-        "A University project about manage independent robots of a city using distributed algorithms and communication technologies for sensor data streaming."
-      ]
-    ],
-    "desc_links": {},
-    "tech": "Java, Google Protocol Buffers, gRPC, MQTT, Jersey JAXB for REST API",
-    "images": []
-  },
-  {
-    "name": "Business Process Intelligence",
-    "link": "",
-    "period": "June 2023 - July 2023",
-    "descriptions": [
-      [
-        "A Univerity project about data mining, process mining, variant analysis, and process discovery using a dataset of several millions of events and cases of a Netherland company."
-      ],
-      [
-        "A Univerity project about Business Process Intelligence Challenge 2019: data mining, process mining, variant analysis, and process discovery using a dataset of several millions of events and cases for a Netherland company. Creating several Petri Nets, BPMN, process tree and Data Visualization for different process categories"
-      ]
-    ],
-    "desc_links": {},
-    "tech": "Python, pm4py, seaborn",
+    "tech": "Java, SQLite, Maven, Eclipse, JavaFX",
     "images": []
   },
   {
@@ -67,16 +29,57 @@
     "images": []
   },
   {
-    "name": "SWAGVote",
+    "name": "Business Process Intelligence",
     "link": "",
-    "period": "October 2021 - January 2022",
+    "period": "June 2023 - July 2023",
     "descriptions": [
       [
-        "A University project about creating a system for online voting: creating, managing and counting electoral votes. Engineering the architecture and reusable software using diagrams like Use Cases, Class Diagram, Sequence Diagram, UML, FSM."
+        "A Univerity project about data mining, process mining, variant analysis, and process discovery using a dataset of several millions of events and cases of a Netherland company."
+      ],
+      [
+        "A Univerity project about Business Process Intelligence Challenge 2019: data mining, process mining, variant analysis, and process discovery using a dataset of several millions of events and cases for a Netherland company. Creating several Petri Nets, BPMN, process tree and Data Visualization for different process categories"
       ]
     ],
     "desc_links": {},
-    "tech": "Java, SQLite, Maven, Eclipse, JavaFX",
+    "tech": "Python, pm4py, seaborn",
+    "images": []
+  },
+  {
+    "name": "Distributed Systems",
+    "link": "",
+    "period": "June 2023 - July 2023",
+    "descriptions": [
+      [
+        "A University project about manage independent robots of a city using distributed algorithms and communication technologies for sensor data streaming."
+      ]
+    ],
+    "desc_links": {},
+    "tech": "Java, Google Protocol Buffers, gRPC, MQTT, Jersey JAXB for REST API",
+    "images": []
+  },
+  {
+    "name": "BuddyPay",
+    "link": "https://buddypay.tommasoromano.com",
+    "period": "May 2024 - June 2024",
+    "descriptions": [
+      [
+        "A university project about developing microservices using the AWS Cloud services in order to support load balancing, fault tolerance, and security."
+      ]
+    ],
+    "desc_links": {},
+    "tech": "AWS Cloud: API Gateway, Cognito, Lambda, SQS, DynamoDB, Next.js",
+    "images": [
+      { "src": "/others/schema_high.jpeg", "descr": "" },
+      { "src": "/others//home_demo.png", "descr": "" }
+    ]
+  },
+  {
+    "name": "",
+    "link": "",
+    "period": "",
+    "descriptions": [[""]],
+    "desc_links": {},
+    "tech": "",
     "images": []
   }
 ]

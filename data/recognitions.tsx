@@ -1,5 +1,5 @@
-import { Recognition } from "./Recognition";
-import { TextLink } from "./Link";
+import { Recognition } from "../components/Recognition";
+import { TextLink } from "../components/Link";
 
 export const reco0 = (
   <Recognition

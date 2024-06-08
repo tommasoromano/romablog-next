@@ -1,4 +1,8 @@
-import Head from 'next/head';
+import Head from "next/head";
+
+const TITLE = "Tommaso Romano - Software Developer Engineer";
+const DESCRIPTION =
+  "Hey, I'm Tommaso Romano. A Software Developer Engineer based in Milan, Italy.";
 
 const MetaHead = ({
   title,
@@ -18,14 +22,11 @@ const MetaHead = ({
   return (
     <Head>
       <title>{title}</title>
-      <meta
-        name="title"
-        content="Tommaso Romanò - Software Engineer"
-      />
+      <meta name="title" content={TITLE} />
       <meta name="description" content={description} />
       <meta
         name="keyword"
-        content="Tommaso Romano Romanò software engineer developer freelancer designer react nodejs javascript programming web portfolio blog Milan Italy"
+        content="Tommaso Romano Romanò software engineer developer designer react nodejs javascript programming web portfolio blog Milan Italy"
       ></meta>
       <meta name="robots" content="index, follow" />
 
@@ -45,13 +46,12 @@ const MetaHead = ({
 };
 
 MetaHead.defaultProps = {
-  title: 'Tommaso Romanò - Software Engineer',
-  ogtitle: 'Tommaso Romanò - Software Engineer',
-  description:
-    "Hey, I'm Tommaso. A Software Engineer based in Milan, Italy. I love design as much as Software Development. I work with JavaScript, TypeScript, React, Node.js & MongoDB.",
-  image: 'https://tommasoromano.com/images/default_tr.jpg',
-  url: 'https://tommasoromano.com',
-  typeOfContent: 'website',
+  title: TITLE,
+  ogtitle: TITLE,
+  description: DESCRIPTION,
+  image: "https://tommasoromano.com/images/default_tr.jpg",
+  url: "https://tommasoromano.com",
+  typeOfContent: "website",
 };
 
 export default MetaHead;

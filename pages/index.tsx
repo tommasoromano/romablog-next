@@ -12,8 +12,8 @@ import {
   expFamaLabs,
   expSmartBearEU,
   expStealthStartup,
-} from "../components/experiences";
-import { proj1, proj3, proj4 } from "../components/projects";
+} from "../data/experiences";
+import { proj1, proj3, proj4 } from "../data/projects";
 import {
   reco14,
   reco18,
@@ -21,8 +21,9 @@ import {
   reco22,
   reco23,
   reco24,
-} from "../components/recognitions";
+} from "../data/recognitions";
 import Image from "next/image";
+import { TextLink } from "../components/Link";
 
 const Home: NextPage<{ allPostsData: Post[] }> = ({
   allPostsData,
@@ -80,7 +81,7 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
         />
         <SocialIcon
           kind="resume"
-          href={"https://tommasoromano.com/tommaso_romano_resume.pdf"}
+          href={"https://tommasoromano.com/tommaso_romano_cv.pdf"}
           size={6}
         />
       </div>
@@ -94,10 +95,8 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
         <main className="mb-auto">
           {intro}
           <div className="mb-4 text-2xl font-bold">
-            Experience
-            <span className="ml-2 text-sm font-normal">
-              A selected list of work experiences
-            </span>
+            <TextLink href="/experiences">Experience</TextLink>
+            <span className="ml-2 text-sm font-normal">A selected list</span>
           </div>
           <div className="flex w-full flex-col space-y-8">
             {expAmazon}
@@ -108,23 +107,19 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
           </div>
           <div className="pt-4 pb-4 flex items-center justify-center"></div>
           <div className="mt-8 mb-4 text-2xl font-bold">
-            Projects
+            <TextLink href="/projects">Projects</TextLink>
             {/* <br /> */}
-            <span className="ml-2 text-sm font-normal">
-              A selected list of projects
-            </span>
+            <span className="ml-2 text-sm font-normal">A selected list</span>
           </div>
           <div className="flex w-full flex-col space-y-8">
             {proj4}
             {proj3}
             {proj1}
           </div>
-          {/* <div className="pt-4 pb-4 flex items-center justify-center"></div>
+          <div className="pt-4 pb-4 flex items-center justify-center"></div>
           <div className="mt-8 mb-4 text-2xl font-bold">
-            Recognitions and Awards
-            <span className="ml-2 text-sm font-normal">
-              A selected list of recognitions, awards and achievements
-            </span>
+            <TextLink href="/recognitions">Recognitions and Awards</TextLink>
+            <span className="ml-2 text-sm font-normal">A selected list</span>
           </div>
           <div className="flex w-full flex-col space-y-8">
             {reco23}
@@ -133,7 +128,7 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
             {reco18}
             {reco24}
             {reco14}
-          </div> */}
+          </div>
         </main>
 
         <Footer />

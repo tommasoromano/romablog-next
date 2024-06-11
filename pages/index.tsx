@@ -81,7 +81,7 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
         />
         <SocialIcon
           kind="resume"
-          href={"https://tommasoromano.com/tommaso_romano_cv.pdf"}
+          href={"https://www.overleaf.com/download/project/660d2dcf7d8f090e209c7fdb/build/190083dc06d-85b1873bd20811af/output/output.pdf"}
           size={6}
         />
       </div>

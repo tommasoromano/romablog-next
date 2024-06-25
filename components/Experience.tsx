@@ -68,23 +68,28 @@ export const Experience = ({
           {images.length > 0 && (
             <div className="relative max-w-full overflow-hidden">
               {/* <div className="absolute inset-0"> */}
-              <div className="relative overflow-auto pt-2">
+              <div className="relative overflow-x-scroll mt-2">
                 <div className="flex flex-nowrap space-x-2">
                   {images.map((image, i) => (
                     <div
                       key={i}
-                      className="aspect-[16/9] h-32 rounded-md bg-cover bg-center"
-                      style={{
-                        backgroundImage: `url(${image.src})`,
-                      }}
+                      className="aspect-[16/9] relative h-32 rounded-md bg-cover bg-center"
+                      // style={{
+                      //   backgroundImage: `url(${image.src})`,
+                      // }}
                     >
-                      {/* <Image
+                      <Image
                         src={image.src}
                         alt={image.descr}
-                        width={128 * (16 / 9)}
-                        height={128}
+                        layout="fill"
+                        // width={120 * (16 / 9)}
+                        // height={120}
                         className="rounded-md"
-                      /> */}
+                        objectFit="cover"
+                        // style={{
+                        //   objectFit: "cover",
+                        // }}
+                      />
                     </div>
                   ))}
                 </div>

@@ -1,8 +1,8 @@
 import Head from "next/head";
 
-const TITLE = "Tommaso Romano - Software Developer Engineer";
+const TITLE = "Tommaso Romano' - Software Developer Engineer";
 const DESCRIPTION =
-  "Hey, I'm Tommaso Romano. A Software Developer Engineer based in Milan, Italy.";
+  "Hey, I'm Tommaso Romano'. A Software Developer Engineer based in Milan, Italy.";
 
 const MetaHead = ({
   title,
@@ -26,7 +26,7 @@ const MetaHead = ({
       <meta name="description" content={description} />
       <meta
         name="keyword"
-        content="Tommaso Romano Romanò software engineer developer designer react nodejs javascript programming web portfolio blog Milan Italy"
+        content="Tommaso Romano Romano' Romanò software engineer developer designer react nodejs javascript programming web portfolio blog Milan Italy"
       ></meta>
       <meta name="robots" content="index, follow" />
 

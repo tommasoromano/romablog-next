@@ -17,6 +17,7 @@ module.exports = {
     extend: {
       animation: {
         hey: "hey 2.4s infinite",
+        "infinite-scroll": "infinite-scroll 25s ease-in-out infinite",
       },
       keyframes: {
         hey: {
@@ -44,6 +45,11 @@ module.exports = {
           "100%": {
             transform: "rotate(0deg)",
           },
+        },
+        "infinite-scroll": {
+          "0%": { transform: "translateX(0)" },
+          "50%": { transform: "translateX(-50%)" },
+          "100%": { transform: "translateX(0)" },
         },
       },
       lineHeight: {

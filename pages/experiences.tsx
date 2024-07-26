@@ -12,6 +12,7 @@ import {
   expAmazon,
   expDrembitsStudio,
   expFamaLabs,
+  expHumanHall,
   expSmartBearEU,
   expStealthStartup,
 } from "../data/experiences";
@@ -27,19 +28,20 @@ const Projects: NextPage = () => {
       />
       <section className="mx-auto max-w-screen-sm px-4">
         <main className="mb-auto">
-          <div className="text-sm">
+          <div className="text-sm pt-4">
             <TextLink href="/">{"< back"}</TextLink>
           </div>
           <div className="pt-8 mb-4 text-2xl font-bold">All Experiences</div>
           <div className="flex w-full flex-col space-y-8">
             {[
+              expHumanHall,
               expAmazon,
               expFamaLabs,
               expDrembitsStudio,
               expSmartBearEU,
               expStealthStartup,
             ]
-              .reverse()
+              // .reverse()
               .map((e) => e)}
           </div>
         </main>

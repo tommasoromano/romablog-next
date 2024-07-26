@@ -150,11 +150,8 @@ export const expAmazon = (
     duration="6 months"
     techs="React, TypeScript, ProtoBuf, Kotlin, Python, AWS"
     images={[
+      { src: "/amazon/robotics.jpeg", descr: "" },
       { src: "/amazon/cup.jpeg", descr: "" },
-      {
-        src: "/amazon/robotic.jpeg",
-        descr: "",
-      },
     ]}
   >
     <div>
@@ -173,6 +170,31 @@ export const expAmazon = (
     <div>
       - Took ownership of the project and worked side by side with stakeholders;
       suggested and guided the refactoring the whole team data schema.
+    </div>
+  </Experience>
+);
+export const expHumanHall = (
+  <Experience
+    company="Human Hall"
+    logo="/linkedin/human_hall_logo.jpeg"
+    position="Senior Data Scientist"
+    where=""
+    startDate="March 2024"
+    endDate="Present"
+    duration=""
+    techs="Python, Hugging Face, Ollama, AWS"
+    images={[]}
+  >
+    <div>
+      Working with a multidisciplinary team on language detection;{" "}
+      <TextLink href="https://www.linkedin.com/company/human-hall/">
+        Human Hall
+      </TextLink>{" "}
+      is backed by EU and MUSA (Italian Ministry of University and Reasearch)
+    </div>
+    <div>
+      - Co-directed the development of pipelines to use and fine-tune LLMs with
+      a mixture of techniques
     </div>
   </Experience>
 );

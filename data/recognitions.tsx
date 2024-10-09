@@ -1,5 +1,4 @@
 import { Recognition } from "../components/Recognition";
-import { TextLink } from "../components/Link";
 
 export const reco0 = (
   <Recognition
@@ -62,7 +61,7 @@ export const reco4 = (
     tag=""
     when="27-29 Sept. 2019"
     techs=""
-    images={[{ src: "/me/mgw19.JPG", descr: "" }]}
+    images={[{ src: "/me/mgw19.JPG", descr: "Tommaso Romano MGW" }]}
   >
     <div>Showcased RELOW at Milan Games Week 2019</div>
   </Recognition>
@@ -137,7 +136,7 @@ export const reco10 = (
     tag="Speaker"
     when="6 Sept. 2020 @ Svilupparty 2020, Bologna"
     techs=""
-    images={[{ src: "/me/svp20.PNG", descr: "" }]}
+    images={[{ src: "/me/svp20.PNG", descr: "Tommaso Romano SVP" }]}
   >
     <div>Post-mortem talk of the multiplayer game RELOW</div>
   </Recognition>
@@ -191,7 +190,7 @@ export const reco14 = (
     tag="Speaker"
     when="10 July 2021 @ Svilupparty 2021, Bologna"
     techs=""
-    images={[{ src: "/me/svp21.PNG", descr: "" }]}
+    images={[{ src: "/me/svp21.PNG", descr: "Tommaso Romano SVP" }]}
   >
     <div>
       Been invited to speak about Social Medias for Game Developers: Twitter,
@@ -246,12 +245,14 @@ export const reco18 = (
     tag="Funding and Accelerator"
     when="Dec. 2021 - July 2022"
     techs=""
-    images={[{ src: "/me/bgf_0.jpg", descr: "Bologna Game Farm 2022" }]}
+    images={[
+      { src: "/me/bgf_0.jpg", descr: "Tommaso Romano Bologna Game Farm 2022" },
+    ]}
   >
     <div>
-      Winners with War of Wheels. Bologna Game Farm is a funding and
-      entrepreneurial accelerator dedicated to innovative startups for the
-      development of videogames.
+      Winner of Bologna Game Farm: a funding of 120k and entrepreneurial
+      accelerator dedicated to innovative startups for the development of
+      videogames.
     </div>
   </Recognition>
 );
@@ -262,7 +263,9 @@ export const reco19 = (
     tag="Event"
     when="6-8 July 2022"
     techs=""
-    images={[{ src: "/me/fp_2022.JPG", descr: "First Playable 2022" }]}
+    images={[
+      { src: "/me/fp_2022.JPG", descr: "Tommaso Romano First Playable 2022" },
+    ]}
   >
     <div>
       I have brought the project War of Wheels to Firts Playable, which is Italy
@@ -294,7 +297,7 @@ export const reco21 = (
     tag="Event"
     when="23-25 Aug. 2023"
     techs=""
-    images={[{ src: "/me/gc_2022.JPG", descr: "" }]}
+    images={[{ src: "/me/gc_2022.JPG", descr: "Tommaso Romano GamesCom" }]}
   >
     <div>
       I have represented Italy in the world biggest game business event:
@@ -312,13 +315,15 @@ export const reco22 = (
     tag="Event"
     when="3-4 Nov. 2022"
     techs=""
-    images={[{ src: "/me/gcparis_2022.jpeg", descr: "" }]}
+    images={[
+      { src: "/me/gcparis_2022.jpeg", descr: "Tommaso Romano GameConnection" },
+    ]}
   >
     <div>
-      I have took part at the Game Connection Paris: the deal making event for
-      the video game industry. Game Connection is the international event where
-      developers, publishers, distributors and service providers come to find
-      new partners and clients.
+      I have took part and pitched at the Game Connection Paris: the deal making
+      event for the video game industry. Game Connection is the international
+      event where developers, publishers, distributors and service providers
+      come to find new partners and clients.
     </div>
   </Recognition>
 );
@@ -332,7 +337,7 @@ export const reco23 = (
     images={[
       {
         src: "/me/usc2023.jpeg",
-        descr: "University Startup Challenge 2023 Finalist",
+        descr: "Tommaso Romano University Startup Challenge 2023 Finalist",
       },
     ]}
   >
@@ -356,6 +361,54 @@ export const reco24 = (
       I have been nominated in this list by StartupItalia that consists of
       professional allowing italian videogame industry to shine in the world of
       creativity
+    </div>
+  </Recognition>
+);
+export const reco25 = (
+  <Recognition
+    title="Amazon Robotics Internal Hackathon"
+    link=""
+    tag="Hacathon"
+    when="4-5 December 2023"
+    techs=""
+    images={[]}
+  >
+    <div>
+      I won the first place with a project on realtime streaming and control of
+      robots from remote
+    </div>
+  </Recognition>
+);
+export const reco26 = (
+  <Recognition
+    title="Synthetic Data for Identifying Inclusive Language"
+    link="https://ieeexplore.ieee.org/document/10679398"
+    tag="Paper"
+    when="2-4 September 2024"
+    techs=""
+    images={[
+      { src: "/others/paper_london.jpg", descr: "Tommaso Romano London Paper" },
+    ]}
+  >
+    <div>
+      Publication for IEEE CSR Conference in London about Synthetic Dataset
+      generation for Large Language Models
+    </div>
+  </Recognition>
+);
+export const reco27 = (
+  <Recognition
+    title="Startup on AI in Management Software"
+    link=""
+    tag="Hackathon"
+    when="5-6 October 2024"
+    techs=""
+    images={[]}
+  >
+    <div>
+      Finalist team. Developed an idea of AI for ERP, and pitched to investors.
+      Organized by AssoSoftware, Polihub, Generali, Italian Tech Alliance and
+      CDP
     </div>
   </Recognition>
 );
@@ -386,4 +439,7 @@ export const recoAll = [
   reco22,
   reco23,
   reco24,
+  reco25,
+  reco26,
+  reco27,
 ];

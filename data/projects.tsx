@@ -1,5 +1,4 @@
 import { Recognition } from "../components/Recognition";
-import { TextLink } from "../components/Link";
 
 export const proj0 = (
   <Recognition
@@ -73,19 +72,13 @@ export const proj4 = (
     when="May 2024 - June 2024"
     techs="AWS Cloud: API Gateway, Cognito, Lambda, SQS, DynamoDB, Next.js"
     images={[
-      {
-        src: "/others/schema_high.jpeg",
-        descr: "",
-      },
-      {
-        src: "/others/home_demo.png",
-        descr: "",
-      },
+      { src: "/others/schema_high.jpeg", descr: "" },
+      { src: "/others//home_demo.png", descr: "" },
     ]}
   >
     <div>
-      A university project about developing microservices using the API gateway
-      architecture in order to support load balancing, fault tolerance, and
+      A university project about developing microservices using the AWS Cloud
+      services in order to support load balancing, fault tolerance, and
       security.
     </div>
   </Recognition>

@@ -7,9 +7,9 @@ export const expStealthStartup = (
     logo="/linkedin/stealth_logo.jpeg"
     position="Software Engineer"
     where=""
-    startDate="Sept. 2013"
+    startDate="Sept. 2015"
     endDate="Jan. 2022"
-    duration="8 years and 5 months"
+    duration="6 years and 5 months"
     techs="Unity, CSharp, Python, React"
     images={[
       { src: "/me/svp21.PNG", descr: "Tommaso Romano SVP" },
@@ -19,34 +19,35 @@ export const expStealthStartup = (
     ]}
   >
     <div>
-      Developed several commercial projects from videogames to AI automations or
-      websites. Here are some of the most relevant:
+      Developed several commercial projects from videogames to AI automations
+      and websites. Here are some of the most relevant:
     </div>
     <div>
       -{" "}
       <TextLink href="https://x.com/TommasoRomano_/status/1414574481281101831">
         Untitled Nature Game
       </TextLink>
-      : a prototype game that went viral with several millions of viewers across
-      TikTok, Reddit and Twitter. It caught the attention of several investors
-      and publishers.
+      : a prototype game that went viral with several millions of views across
+      TikTok, Reddit and Twitter. It got offers from several investors and
+      publishers.
     </div>
     <div>
       -{" "}
       <TextLink href="https://store.steampowered.com/app/966070/Relow/">
         RELOW
       </TextLink>
-      : a solo-developed multiplayer game, released in 2020, showcased in
-      several expositions like Milan Games Week 2019 and 2020, and Svilupparty
-      2019 and 2020; attended and given several talks and interviews.
+      : a solo-developed multiplayer game, released in 2020 with 5k+ sales,
+      showcased in several expositions like Milan Games Week 2019 and 2020, and
+      Svilupparty 2019 and 2020; attended and given several talks and
+      interviews.
     </div>
     <div>
       -{" "}
       <TextLink href="https://store.steampowered.com/app/444490/POLYWAR/">
         POLYWAR
       </TextLink>
-      : multiplayer game released in 2016 in collaboration with the publisher
-      New Reality Games
+      : multiplayer game released in 2016 with 200k+ sales in collaboration with
+      the publisher New Reality Games
     </div>
     <div>
       - Easy Insta Growth: 2020-2021 an Instagram AI automation, with hundreds
@@ -59,7 +60,7 @@ export const expDrembitsStudio = (
   <Experience
     company="Drembits Studio"
     logo="/linkedin/dreambits_logo.jpeg"
-    position="Software Engineer, Multiplayer"
+    position="Founding Software Engineer"
     where=""
     startDate="May 2021"
     endDate="Nov. 2022"
@@ -80,14 +81,15 @@ export const expDrembitsStudio = (
       : a multiplayer game about medieval-punk fighting cars.
     </div>
     <div>
-      - Winners of <TextLink href="https://bolognagamefarm.com/">BGF</TextLink>{" "}
-      (funding and accelerator); participated in several international events
-      and expositions while pitching to publishers and investors, and meeting
-      fellow devs.
+      - Winner of <TextLink href="https://bolognagamefarm.com/">BGF</TextLink>:
+      funding of 120k and starup accelerator; participated in several
+      international events (like GamesCom Cologne, GamesConnection Paris and GDC
+      San Francisco) while pitching to publishers and investors.
     </div>
     <div>
-      - Took ownership of the multiplayer and proactively guided its design and
-      implementation.
+      - Helped the growth of the team from 5 to 20 employees; proactively leaded
+      the team for the design and implementation of the multiplayer and
+      networking system.
     </div>
   </Experience>
 );
@@ -105,8 +107,9 @@ export const expSmartBearEU = (
   >
     <div>
       <TextLink href="https://www.smart-bear.eu/">Smart-Bear</TextLink> is a big
-      data platform in healthcare funded by the European Union, offering
-      evidence-based interventions thanks to predictive analytics.
+      data platform in healthcare funded by the European Union and in
+      collaborations with top European Universities; it offer evidence-based
+      interventions thanks to predictive analytics.
     </div>
     <div>
       - Built modular and cloud-optimized pipelines for predictive analysis,
@@ -133,9 +136,10 @@ export const expFamaLabs = (
       healthcare.
     </div>
     <div>
-      - Built the modular survey engine and compiler, and designed UI library
-      for MAP (Medical Adaptive Platform): a dashboard built for doctors to
-      easily manage CRF and more.
+      - Took ownership and proactively guided the development of the modular
+      survey engine and compiler, and designed UI library for MAP (Medical
+      Adaptive Platform): a dashboard built for doctors to easily manage CRF and
+      more.
     </div>
   </Experience>
 );
@@ -169,7 +173,11 @@ export const expAmazon = (
     </div>
     <div>
       - Took ownership of the project and worked side by side with stakeholders;
-      suggested and guided the refactoring the whole team data schema.
+      suggested and guided the refactoring the whole team data schema
+    </div>
+    <div>
+      - Winner the Amazon Robotics internal hackathon with a project about
+      streaming and remote controlling the Universal Robots
     </div>
   </Experience>
 );
@@ -181,8 +189,8 @@ export const expHumanHall = (
     where=""
     startDate="March 2024"
     endDate="Present"
-    duration=""
-    techs="Python, Hugging Face, Ollama, AWS"
+    duration="8 Months"
+    techs="Python, Hugging Face, Ollama, Unsloth, AWS"
     images={[]}
   >
     <div>
@@ -190,11 +198,26 @@ export const expHumanHall = (
       <TextLink href="https://www.linkedin.com/company/human-hall/">
         Human Hall
       </TextLink>{" "}
-      is backed by EU and MUSA (Italian Ministry of University and Reasearch)
+      is backed by European Union and MUSA, with several partners like Deloitte
     </div>
     <div>
-      - Co-directed the development of pipelines to use and fine-tune LLMs with
-      a mixture of techniques
+      - Co-directed the development of pipelines for fine-tune LLMs and
+      synthetic data.
     </div>
+  </Experience>
+);
+export const expAmazonWebServices = (
+  <Experience
+    company="Amazon Web Services (AWS)"
+    logo="/linkedin/aws.jpeg"
+    position="Software Developer Engineer"
+    where="Berlin, Germany"
+    startDate="Nov. 2023"
+    endDate="Present"
+    duration=""
+    techs=""
+    images={[]}
+  >
+    <div>In the team of Amazon Q: the generative AI-powered assistant</div>
   </Experience>
 );

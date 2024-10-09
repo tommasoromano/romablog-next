@@ -29,6 +29,11 @@ import {
 } from "../data/recognitions";
 import Image from "next/image";
 import { TextLink } from "../components/Link";
+import ShineBorder from "@/components/ui/shine-border";
+import { NeonGradientCard } from "@/components/ui/neon-gradient-card";
+import { cn } from "@/lib/utils";
+import AnimatedGridPattern from "@/components/ui/animated-grid-pattern";
+import DotPattern from "@/components/ui/dot-pattern";
 
 const Home: NextPage<{ allPostsData: Post[] }> = ({
   allPostsData,
@@ -39,6 +44,12 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
     <div className="flex h-full h-screen w-full flex-col items-center justify-center space-y-1 text-center">
       <div className="mb-6">
         {/* <div className="mb-6 aspect-square w-full max-w-48 rounded-full"> */}
+        {/* <ShineBorder
+          className="bg-slate-800 rounded-full aspect-square -p-3 flex flex-col items-center justify-center"
+          color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+          borderRadius={8000}
+          borderWidth={4}
+        > */}
         <Image
           src={"/me/me_2023_05_final_square.jpg"}
           alt="Tommaso Romano"
@@ -46,6 +57,8 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
           height={192}
           className="rounded-full"
         />
+
+        {/* </ShineBorder> */}
         {/* <div
           className="h-full w-full rounded-full bg-cover bg-center p-4"
           style={{

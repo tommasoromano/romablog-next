@@ -1,5 +1,6 @@
-import { Html, Head, Main, NextScript } from 'next/document';
-import Script from 'next/script';
+import { ThemeProvider } from "next-themes";
+import { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 export default function Document() {
   return (
@@ -27,7 +28,14 @@ export default function Document() {
         <script async src="https://cdn.splitbee.io/sb.js"></script>
       </Head>
       <body>
-        <Main />
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Main />
+        </ThemeProvider>
         <NextScript />
       </body>
     </Html>

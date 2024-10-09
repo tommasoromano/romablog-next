@@ -10,6 +10,7 @@ import { Recognition } from "../components/Recognition";
 import { projAll } from "../data/projects";
 import {
   expAmazon,
+  expAmazonWebServices,
   expDrembitsStudio,
   expFamaLabs,
   expHumanHall,
@@ -34,6 +35,7 @@ const Projects: NextPage = () => {
           <div className="pt-8 mb-4 text-2xl font-bold">All Experiences</div>
           <div className="flex w-full flex-col space-y-8">
             {[
+              expAmazonWebServices,
               expHumanHall,
               expAmazon,
               expFamaLabs,

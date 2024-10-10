@@ -403,7 +403,7 @@ export const reco27 = (
     tag="Hackathon"
     when="5-6 October 2024"
     techs=""
-    images={[]}
+    images={[{ descr: "Hackaton Assosoftware 2024", src: "/me/hackasso.JPG" }]}
   >
     <div>
       Finalist team. Developed an idea of AI for ERP, and pitched to investors.

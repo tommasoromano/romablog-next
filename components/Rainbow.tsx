@@ -1,6 +1,6 @@
 export function RainbowText({ children }: { children: React.ReactNode }) {
   return (
-    <span className="bg-gradient-to-r from-pink-400 to-sky-400 bg-clip-text text-transparent">
+    <span className="bg-gradient-to-r from-lime-400 via-cyan-400 to-violet-600 bg-clip-text text-transparent">
       {children}
     </span>
   );

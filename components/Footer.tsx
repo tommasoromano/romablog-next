@@ -1,7 +1,9 @@
 import Link from "./Link";
 import SocialIcon from "./social-icons";
+import React, { useState } from 'react';
 
 export default function Footer() {
+  const [show, setShow] = useState(0);
   return (
     <footer>
       <div className="mt-16 flex flex-col items-center">
@@ -42,7 +44,11 @@ export default function Footer() {
           <Link href="/">{siteMetadata.title}</Link> */}
         </div>
         <div className="mb-2 text-center">
-          🇮🇹🇻🇦🇸🇲🇪🇬🇪🇸🇫🇷🇩🇰🇸🇮🇭🇷🇬🇧🏴󠁧󠁢󠁥󠁮󠁧󠁿🇨🇭🇱🇮🇩🇪🇹🇷🇸🇪🇬🇷🇮🇸🇺🇸🇨🇦🇳🇱🇦🇹🇲🇨🇮🇱🇵🇸🇫🇮🇧🇪
+          <span onClick={()=>setShow(prev=>prev==0?prev+1:prev}>🇮🇹</span>
+          🇻🇦🇸🇲🇪🇬🇪🇸🇫🇷🇩🇰🇸🇮🇭🇷🇬🇧🏴󠁧󠁢󠁥󠁮󠁧󠁿🇨🇭🇱🇮🇩🇪🇹🇷🇸🇪🇬🇷🇮🇸🇺🇸🇨🇦🇳🇱🇦🇹🇲🇨🇮🇱🇵🇸🇫🇮🇧🇪
+          <span onClick={()=>setShow(prev=>prev==1?prev+1:prev}>🇱🇹</span>
+          <br/>
+          {show==2 && "🇮🇹🇮🇹🇮🇹🇮🇹🇮🇹🇮🇹🇳🇱🇧🇪🇮🇹🇩🇪🇹🇷"}
         </div>
       </div>
     </footer>

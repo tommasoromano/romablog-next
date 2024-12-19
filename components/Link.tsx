@@ -34,9 +34,7 @@ export const TextLink = ({
   return (
     // <RainbowText>
     <span className="decoration-primary font-bold">
-      <RainbowText>
         <CustomLink href={href ? href : "#"}>{children}</CustomLink>
-      </RainbowText>
     </span>
     // </RainbowText>
   );

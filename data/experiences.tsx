@@ -218,6 +218,12 @@ export const expAmazonWebServices = (
     techs=""
     images={[]}
   >
-    <div>In the team of Amazon Q: the generative AI-powered assistant</div>
+    <div>AWS Billing. </div>
+<div>- Developing solutions for management and automation of private offerings for government customers (e.g. US, EU...) or large enterprises (e.g. Netflix, Apple...)
+</div><div>
+- Reduced by 80% the time needed for PMs to review offers on continuously expanding products, services, partitions and regions.
+</div><div>
+- Designing architectures to audit and reduce losses across all AWS services
+</div>
   </Experience>
 );

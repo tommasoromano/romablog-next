@@ -219,11 +219,11 @@ export const expAmazonWebServices = (
     images={[]}
   >
     <div>AWS Billing. </div>
-<div>- Developing solutions for management and automation of private offerings for government customers (e.g. US, EU...) or large enterprises (e.g. Netflix, Apple...)
+<div>- Developing solutions for management and automation of pricing offerings for government customers or large enterprises (e.g. major FAANGs), and public customers. 
 </div><div>
 - Reduced by 80% the time needed for PMs to review offers on continuously expanding products, services, partitions and regions.
 </div><div>
-- Designing architectures to audit and reduce losses across all AWS services
+- Designing architectures to audit and reduce losses across all AWS services.
 </div>
   </Experience>
 );

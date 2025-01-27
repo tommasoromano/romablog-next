@@ -51,7 +51,7 @@ const Home: NextPage<{ allPostsData: Post[] }> = ({
           borderWidth={4}
         > */}
         <Image
-          src={"/me/tommaso_romano_color24.png"}
+          src={"/me/tommaso_romano_color.png"}
           alt="Tommaso Romano"
           width={192}
           height={192}

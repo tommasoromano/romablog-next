@@ -1,5 +1,4 @@
 import type { GetStaticProps, NextPage } from "next";
-import Contact from "../components/Contact";
 import MetaHead from "../components/MetaHead";
 import { getSortedPostsData } from "../lib/posts";
 import { Post } from "../types/post";
@@ -15,25 +14,9 @@ import {
   expSmartBearEU,
   expStealthStartup,
 } from "../data/experiences";
-import { proj1, proj3, proj4 } from "../data/projects";
-import {
-  reco14,
-  reco18,
-  reco21,
-  reco22,
-  reco23,
-  reco24,
-  reco25,
-  reco26,
-  reco27,
-} from "../data/recognitions";
+import { reco18, reco22, reco24, reco26, reco27 } from "../data/recognitions";
 import Image from "next/image";
 import { TextLink } from "../components/Link";
-import ShineBorder from "@/components/ui/shine-border";
-import { NeonGradientCard } from "@/components/ui/neon-gradient-card";
-import { cn } from "@/lib/utils";
-import AnimatedGridPattern from "@/components/ui/animated-grid-pattern";
-import DotPattern from "@/components/ui/dot-pattern";
 
 const Home: NextPage<{ allPostsData: Post[] }> = ({
   allPostsData,

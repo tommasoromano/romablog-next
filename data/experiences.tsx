@@ -188,7 +188,7 @@ export const expHumanHall = (
     position="Senior Data Scientist"
     where=""
     startDate="March 2024"
-    endDate="Present"
+    endDate="October 2024"
     duration="8 Months"
     techs="Python, Hugging Face, Ollama, Unsloth, AWS"
     images={[]}
@@ -219,11 +219,18 @@ export const expAmazonWebServices = (
     images={[]}
   >
     <div>AWS Billing. </div>
-<div>- Developing solutions for management and automation of pricing offerings for government customers or large enterprises (e.g. major FAANGs), and public customers. 
-</div><div>
-- Reduced by 80% the time needed for PMs to review offers on continuously expanding products, services, partitions and regions.
-</div><div>
-- Designing architectures to audit and reduce losses across all AWS services.
-</div>
+    <div>
+      - Developing solutions for management and automation of pricing offerings
+      for government customers or large enterprises (e.g. major FAANGs), and
+      public customers.
+    </div>
+    <div>
+      - Reduced by 80% the time needed for PMs to review offers on continuously
+      expanding products, services, partitions and regions.
+    </div>
+    <div>
+      - Designing architectures to audit and reduce losses across all AWS
+      services.
+    </div>
   </Experience>
 );
